@@ -1,30 +1,58 @@
-.nav a {
-    color: #5a5a5a;
-    font-size: 11px;
+.jumbotron .navleft {
+	display: flex;
+}
+.jumbotron .nav a {
+    color: #000000;
+	font-family: "Annie Use Your Telescope";
+    font-size: 24px;
     font-weight: bold;
-    padding-top: 14px;
-    padding-bottom: 14px;
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
 }
 
+.jumbotron .nav li{
+	display: inline;
+}
+
+.jumbotron .navleft {
+	position: relative;
+	top: 1em;
+	left: 0em;
+}
+
+.jumbotron .navright {
+	position: absolute;
+	top: 1em;
+	right: 2em;
+}
+
 .jumbotron {
-    height: 500px;
-    background-image: url('https://goo.gl/04j7Nn');
+    height: 30em;
+    background-image: url('http://nurkose.net/wp-content/uploads/2014/12/food-macaroni-and-cheese-Favim.com-693344.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .jumbotron h1 {
-    color: #fff;
-    font-size: 48px;
+    color: #000;
+    font-size: 5em;
     font-weight: bold;
-    font-family: 'Shift', sans-serif;
+    font-family: "Annie Use Your Telescope";
+	text-align: center;
+	position:relative;
+	top: 0em;
 }
 
 .jumbotron p {
-    color: #fff;
-    font-size: 20px;
+    color: #000;
+    font-size: 2.5em;
+	font-family: "Annie Use Your Telescope";
+	text-align: center;
+	position: relative;
+	top: -2em;
 }
+
 
 .learn-more {
     background-color: #f7f7f7;
@@ -37,4 +65,9 @@
 
 .learn-more a {
     color: #00b0ff;
+}
+
+body {
+	
+	background-color: #000;
 }
