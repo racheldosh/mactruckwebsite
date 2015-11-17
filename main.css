@@ -43,7 +43,7 @@
     font-weight: bold;
     font-family: "Annie Use Your Telescope";
 	text-align: center;
-	position: absolute;
+	position: relative;
 	width: 100vw;
 }
 
