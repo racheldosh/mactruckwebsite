@@ -12,10 +12,10 @@
 .jumbotron .nav a {
     color: #242222;
 	font-family: "Annie Use Your Telescope";
-    font-size: 300%;
+    font-size: 200%;
     font-weight: bold;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
     text-transform: uppercase;
 	text-decoration: none;
 }
@@ -43,8 +43,8 @@
     font-weight: bold;
     font-family: "Annie Use Your Telescope";
 	text-align: center;
-	position: relative;
-	bottom: 12vh;
+	position: absolute;
+	top: -10vh;
 	width: 100vw;
 }
 
@@ -113,4 +113,3 @@ table a{
 body {
 	background-color: #242222;
 }
-
