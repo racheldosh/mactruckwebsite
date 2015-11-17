@@ -84,7 +84,23 @@ table, td{
 	border: none;
 	text-align: center;
 	font-family: "Annie Use Your Telescope";
-  	color: #fff;
+  	color: #E8AC33;
+}
+
+
+#questions {
+	font-size: 200%;
+}
+
+table a{
+	font-size: 200%;
+	text-decoration:none;
+	color: black;
+	border: solid;
+	border-style: groove;
+	border-color: black;
+	background-color: #E9AC33;
+	padding: 1%;
 }
 
 body {
