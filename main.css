@@ -12,7 +12,7 @@
 .jumbotron .nav a {
     color: #242222;
 	font-family: "Annie Use Your Telescope";
-    font-size: 7vh;
+    font-size: 5vh;
     font-weight: bold;
     padding-left: .5em;
     padding-right: .5em;
@@ -39,7 +39,7 @@
 
 .jumbotron h1 {
     color: #242222;
-    font-size: 1100%;
+    font-size: 15vw;
     font-weight: bold;
     font-family: "Annie Use Your Telescope";
 	text-align: center;
@@ -52,7 +52,7 @@
     color: #242222;
 	padding-left: .1em;
     padding-right: .1em;
-    font-size: 200%;
+    font-size: 6vw;
     font-family: "Annie Use Your Telescope";
 	text-decoration: none;
 	border-style: solid;
@@ -68,7 +68,7 @@
 .banner p {
     color: #EFBA35;
 	font-weight:bold;
-    font-size: 225%;
+    font-size: 4vw;
 	font-family: "Annie Use Your Telescope";;
 	text-align: center;
 }
