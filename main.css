@@ -44,8 +44,8 @@
     font-family: "Annie Use Your Telescope";
 	text-align: center;
 	position: relative;
+	bottom: 12vh;
 	width: 100vw;
-	bottom: 40vh;
 }
 
 .order-now-button a{
@@ -113,3 +113,4 @@ table a{
 body {
 	background-color: #242222;
 }
+
