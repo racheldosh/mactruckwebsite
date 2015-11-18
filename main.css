@@ -116,6 +116,10 @@ table a{
 	top: 1em;
 }
 
+#icon-images{
+	width: 100px;
+}
+
 body {
 	background-color: #242222;
 }
