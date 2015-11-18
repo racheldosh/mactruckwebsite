@@ -23,23 +23,31 @@
 	display: inline;
 }
 
-.navleft {
+.nav .navleft {
 	position: relative;
 	top: -10px;
 	left: -30px;
 }
 
-.navright {
+.nav .navright {
 	position: absolute;
 	top: 0px;
 	right: 2em;
-
-.information h1{
-    background-color: #242222;
-    border: solid;
-    border-color: blue;
-    position: relative;
 }
+
+.information {
+    background-color: #242222;
+    border-left: solid;
+    border-right: solid;
+    border-top: double;
+    border-bottom: double;
+    border-color: #EFBA35;
+    position: relative;
+    color: #EFBA35;
+    padding: 14px;
+    font-family: "Annie Use Your Telescope";
+}
+    
 body {
-	background-color: black;
+    background-color: #242222;
 }
