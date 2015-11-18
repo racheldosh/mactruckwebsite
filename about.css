@@ -40,3 +40,6 @@
     border-color: blue;
     position: relative;
 }
+body {
+	background-color: black;
+}
