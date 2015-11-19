@@ -37,8 +37,7 @@
 
 .information {
     background-color: #242222;
-    border-left: solid;
-    border-right: solid;
+    
     border-top: double;
     border-bottom: double;
     border-color: #EFBA35;
@@ -46,6 +45,7 @@
     color: #EFBA35;
     padding: 14px;
     font-family: "Annie Use Your Telescope";
+    width: 100%;
 }
     
 body {
