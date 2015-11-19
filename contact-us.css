@@ -37,11 +37,6 @@
 
 .information {
     background-color: #242222;
-    border-left: solid;
-    border-right: solid;
-    border-top: double;
-    border-bottom: double;
-    border-color: #EFBA35;
     position: relative;
     color: #EFBA35;
     padding: 14px;
