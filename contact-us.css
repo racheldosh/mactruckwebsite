@@ -46,7 +46,13 @@
     color: #EFBA35;
     padding: 14px;
     font-family: "Annie Use Your Telescope";
-    width: 80%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.information h2 {
+	text-decoration: underline;
+	
 }
     
 body {
