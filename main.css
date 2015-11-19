@@ -118,6 +118,11 @@ table a{
 	top: 1em;
 }
 
+h2 {
+	font-size: 200%;
+	color: #E9AC33;
+	position: relative;
+}
 
 body {
 	background-color: #242222;
