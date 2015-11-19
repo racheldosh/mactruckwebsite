@@ -119,9 +119,11 @@ table a{
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 150%;
 	color: #E9AC33;
 	position: relative;
+	top: 50px;
+	font-family: "Annie Use Your Telescope";
 }
 
 body {
