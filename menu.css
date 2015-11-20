@@ -38,6 +38,14 @@
 .menu {
     border: 30px solid transparent;
     border-image: url(http://content.mycutegraphics.com/borders/flower-line-border.png);
+    background-color: #EFBA35;
+	position: relative;
+	color: #242222;
+	padding: 14px;
+	font-family: "Annie Use Your Telescope";
+	text-align: center;
+	margin-right: 70px;
+	margin-left: 50px;
 }
     
 body {
