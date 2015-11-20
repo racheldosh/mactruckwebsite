@@ -106,6 +106,8 @@ table, td{
 table {
 	position: relative;
 	top: 20px;
+	border-bottom: solid;
+	border-color: black;
 }
 
 table a{
