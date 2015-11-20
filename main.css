@@ -26,7 +26,7 @@
 
 .jumbotron .navleft {
 	position: relative;
-	top: 25px;
+	top: 20px;
 	left: 0em;
 }
 
@@ -106,8 +106,6 @@ table, td{
 table {
 	position: relative;
 	top: 20px;
-	border-bottom: solid;
-	border-color: black;
 }
 
 table a{
@@ -128,8 +126,7 @@ h2 {
 	font-family: "Annie Use Your Telescope";
 	margin: 20px;
 	text-align: center;
-	border-top: solid;
-	border-color: black;
+	border-top: 20px solid black;
 }
 
 body {
