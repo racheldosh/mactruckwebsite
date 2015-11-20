@@ -88,9 +88,10 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: relative;
-	top: -200px;
+	top: -400px;
 	right: 50px;
-	left: 200px;
+	left: 400px;
+	width: 300px;
 	
 }
 
