@@ -70,12 +70,13 @@
 	border: 5px solid #242222;
 	position: absolute;
 	top: 170px;
-	right: 160px;
-	left: 580px;
-	text-align: center;
+	right: 180px;
+	left: 550px;
+	
 }
 
 .condiments h2{
+	text-align: center;
 	font-size: 160%;
 	text-decoration:underline;
 }
