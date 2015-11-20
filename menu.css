@@ -69,9 +69,17 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: absolute;
-	top: 100px;
-	right: 40px;
-	left: 500px;
+	top: 170px;
+	right: 150px;
+	left: 600px;
+}
+
+.condiments h2{
+	font-size: 160%;
+}
+.condiments li {
+	font-size: 140%;
+	display: inline;
 }
     
 body {
