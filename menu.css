@@ -55,7 +55,10 @@
 	font-size: 200%;
 }
 .menu p {
-	font-size: 200%;
+	font-size: 160%;
+}
+.menu ul {
+	font-size: 140%;
 }
 
 .condiments {
