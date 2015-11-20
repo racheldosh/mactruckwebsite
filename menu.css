@@ -70,16 +70,17 @@
 	border: 5px solid #242222;
 	position: absolute;
 	top: 170px;
-	right: 150px;
-	left: 600px;
+	right: 160px;
+	left: 580px;
+	text-align: center;
 }
 
 .condiments h2{
 	font-size: 160%;
+	text-decoration:underline;
 }
 .condiments li {
 	font-size: 140%;
-	display: inline;
 }
     
 body {
