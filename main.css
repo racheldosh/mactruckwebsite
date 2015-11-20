@@ -26,13 +26,13 @@
 
 .jumbotron .navleft {
 	position: relative;
-	top: 1em;
+	top: 10px;
 	left: 0em;
 }
 
 .jumbotron .navright {
 	position: absolute;
-	top: 1em;
+	top: 10px;
 	right: 2em;
 }
 
