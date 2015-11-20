@@ -6,9 +6,6 @@
 	height: 95vh;
 }
 
-.jumbotron .navleft {
-	display: flex;
-}
 .jumbotron .nav a {
     color: #242222;
     font-family: "Annie Use Your Telescope";
@@ -26,8 +23,9 @@
 
 .jumbotron .navleft {
 	position: relative;
-	top: 20px;
+	top: 15px;
 	left: 0em;
+	display: flex;
 }
 
 .jumbotron .navright {
