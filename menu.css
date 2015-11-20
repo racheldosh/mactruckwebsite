@@ -43,9 +43,9 @@
 	color: #242222;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
-	margin-right: 70px;
-	margin-left: 50px;
-	margin-top: 100px;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-top: 80px;
 }
 
 .menu h1{
@@ -69,7 +69,13 @@
 	font-family: "Annie Use Your Telescope";
 	margin-right: 70px;
 	margin-left: 50px;
-	margin-top: 100px;
+	margin-top: 50px;
+}
+.drinks h2{
+	font-size: 160%;
+}
+.drinks li{
+	font-size: 140%;
 }
 
 .condiments {
@@ -89,7 +95,7 @@
 .condiments h2{
 	text-align: center;
 	font-size: 160%;
-	text-decoration:underline;
+	text-decoration: underline;
 }
 table {
 	font-size: 140%;
