@@ -47,6 +47,18 @@
     padding: 14px;
     font-family: "Annie Use Your Telescope";
     width: 90%;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.information  h1{
+	font-size: 300%;
+}
+
+.information p{
+	font-size: 150%;
 }
     
 body {
