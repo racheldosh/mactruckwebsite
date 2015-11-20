@@ -37,15 +37,15 @@
 
 .menu {
     border: 30px solid transparent;
-    border-image: url(http://content.mycutegraphics.com/borders/flower-line-border.png);
+    border-image: url(http://content.mycutegraphics.com/borders/flower-line-border.png) 100 100 round;
     background-color: #EFBA35;
 	position: relative;
 	color: #242222;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
-	text-align: center;
 	margin-right: 70px;
 	margin-left: 50px;
+	margin-top: 100px;
 }
     
 body {
