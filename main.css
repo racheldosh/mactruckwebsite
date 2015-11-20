@@ -122,10 +122,12 @@ h2 {
 	font-size: 150%;
 	color: #E9AC33;
 	position: relative;
-	top: 50px;
+	top: 70px;
 	font-family: "Annie Use Your Telescope";
 	margin: 20px;
 	text-align: center;
+	border-top: solid;
+	border-color: black;
 }
 
 body {
