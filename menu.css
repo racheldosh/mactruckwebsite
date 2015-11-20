@@ -37,7 +37,7 @@
 
 .menu {
 	border: solid;
-	border-color black;
+	border-color white;
 	border: 10px;
     	background-color: #EFBA35;
 	position: relative;
@@ -90,8 +90,8 @@
 	position: relative;
 	top: -450px;
 	right: 50px;
-	left: 400px;
-	width: 160px;
+	left: 500px;
+	width: 200px;
 	
 }
 
