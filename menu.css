@@ -88,16 +88,16 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: relative;
-	top: -700px;
+	top: -850px;
 	right: 50px;
-	left: 700px;
+	left: 800px;
 	width: 70px;
 	
 }
 
 .condiments h2{
 	text-align: center;
-	font-size: 250%;
+	font-size: 180%;
 	text-decoration: underline;
 }
 .condiments table {
