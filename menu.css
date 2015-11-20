@@ -68,8 +68,8 @@
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
 	margin-right: 70px;
-	margin-left: 50px;
-	margin-top: 0px;
+	margin-left: 40px;
+	margin-top: -10px;
 }
 .drinks h2{
 	font-size: 160%;
@@ -85,9 +85,9 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: absolute;
-	top: 100px;
-	right: 50px;
-	left: 200px;
+	top: 150px;
+	right: 100px;
+	left: 400px;
 	
 }
 
@@ -98,6 +98,7 @@
 }
 .condiments table {
 	font-size: 140%;
+	border-spacing: 2px;
 }
     
 body {
