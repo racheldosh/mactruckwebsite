@@ -86,7 +86,7 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: absolute;
-	top: 150px;
+	top: 100px;
 	right: 130px;
 	left: 530px;
 	
@@ -99,7 +99,6 @@
 }
 .condiments table {
 	font-size: 140%;
-	border-spacing: 5px;
 }
     
 body {
