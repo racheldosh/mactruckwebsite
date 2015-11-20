@@ -84,7 +84,7 @@
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
-	position: absolute;
+	position: relative;
 	top: 150px;
 	right: 100px;
 	left: 400px;
