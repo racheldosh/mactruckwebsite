@@ -64,7 +64,11 @@
 	color: #242222;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
-	border: 5px solid black;
+	border: 5px solid #242222;
+	position: absolute;
+	top: 100px;
+	right: 40px;
+	left: 500px;
 }
     
 body {
