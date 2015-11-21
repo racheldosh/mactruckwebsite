@@ -66,13 +66,13 @@
 
 .drinks {
 	background-color: #EFBA35;
-	position: relative;
+	position: absolute;
 	color: #242222;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
 	margin-right: 70px;
 	margin-left: 40px;
-	margin-top: -400px;
+	margin-top: 700px;
 }
 .drinks h2{
 	font-size: 160%;
@@ -91,7 +91,8 @@
 	top: -450px;
 	right: 50px;
 	left: 470px;
-	width: 300px;
+	width: 400px;
+	border-spacing: 2px;
 	
 }
 
