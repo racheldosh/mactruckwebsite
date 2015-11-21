@@ -39,6 +39,8 @@
 #topborder {
 	position: absolute;
 	z-index: 5;
+	top: -40px;
+	width: 80%;
 }
 
 #bottomborder {
@@ -104,5 +106,5 @@
 }
 
 body {
-    background-color: #white;
+    background-color: #242222;
 }
