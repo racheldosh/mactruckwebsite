@@ -39,7 +39,8 @@
 #topborder {
 	position: relative;
 	z-index: 5;
-	width: 900px;
+	width: 700px;
+	left: 50px;
 }
 
 
