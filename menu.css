@@ -8,6 +8,7 @@
 	width: 100%;
     z-index: 10;
     text-align: center;
+    border-bottom: 3px solid #24222;
 }
 .nav a {
     color: #242222;
@@ -24,12 +25,6 @@
 	display: inline;
 }
 
-.nav .navleft {
-	position: relative;
-	top: -10px;
-	left: -30px;
-}
-
 .nav .navright {
 	position: absolute;
 	top: 0px;
@@ -38,7 +33,7 @@
 
 .nav .navcenter {
 	position: absolute;
-	top: 10px;
+	top: 13px;
 }
 
 .menu {
