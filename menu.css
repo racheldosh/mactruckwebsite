@@ -89,6 +89,9 @@
 .condiments td {
 	padding-right: 30px;
 }
+#meatcondiments {
+	padding-right: 15px;
+}
     
 body {
     background-color: #242222;
