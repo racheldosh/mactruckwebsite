@@ -41,6 +41,14 @@
 	top: 10px;
 }
 
+.theform {
+	background-color: #EFBA35;
+	font-family: "Annie Use Your Telescope";
+	font-size: 150%;
+	font-color: #242222;
+	text-align: center;
+}
+
 body {
   background-color: #242222;
 }
