@@ -1,0 +1,85 @@
+<script type = "text/javascript">
+
+function calculatePrice(myform)
+{
+  var memPrice=myForm.memoryItem.selectedIndex;
+
+
+
+}
+
+</script>
+
+</head>
+<body>
+<table width="80%" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td height="75" colspan="2"><img src="CCLogo.jpg" width="515" height="79"></td>
+</tr>
+<tr>
+<td width="29%" height="103"><img src="computer.jpg" width="120" height="83"></td>
+<td width="71%"><p class="c">The base price of this Computer is $499.<br />Because   this is back-to-school special<br /> the manufacturer offers limited options.</p></td>
+</tr>
+<tr>
+<td height="56" colspan="2" class="d">Intel i5 Pentium, 4GB RAM, 500 GB HD, DVD/CDROM Drive, 2GB 3D AGP<br /> graphics adapter, 15 inch monitor, 32-bit Wave sound card and speakers</td>
+</tr>
+<tr>
+<td>Optional Upgrades</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="50">
+<FORM Name="myform">
+<SELECT NAME="memoryItem" onChange="calculatePrice(myform)">
+  <OPTION>Select One Choice from List-Memory Upgrade
+  <OPTION>8 GB add $49
+  <OPTION>12 GB add $98
+  <OPTION>16 GB add $159
+
+</SELECT>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="48">
+
+<SELECT NAME="hddItem" onChange="calculatePrice(myform)">
+  <OPTION>Select One Choice from List-HDD Upgrade
+  <OPTION>1 TB HD add $109
+  <OPTION>1.5 TB HD add $150
+  <OPTION>2 TB HD add $199
+  <OPTION>250 GB SSD add $299
+
+  </SELECT>
+
+ </td>
+ <td>&nbsp;</td>
+ </tr>
+ <tr>
+<td height="48">
+
+<SELECT NAME="networkItem" onChange="calculatePrice(myform)">
+  <OPTION>Select One Choice from List- Network Upgrade
+  <OPTION>56K V90 or X2 Modem add $109
+  <OPTION>10/100 NIC add $79
+  <OPTION>Combo Modem and NIC add $279
+
+</SELECT>
+</FORM>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="58">
+<button type="button" onclick="caculatePrice()">Calculate</button>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="73">The new calculated price:<INPUT Type="Text" Name="PicExtPrice" Size=8>   </td>
+<td>&nbsp;</td>
+ </tr>
+ </table>
+ </body>
