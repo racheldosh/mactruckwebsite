@@ -1,4 +1,4 @@
 function calculatePrice(myform)
 {
-  var memPrice=myForm.memoryItem.selectedIndex;
+  var memPrice=myform.memoryItem.selectedIndex;
 }
