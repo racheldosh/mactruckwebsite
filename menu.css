@@ -36,6 +36,15 @@
 	top: 13px;
 }
 
+#topborder {
+	position: absolute;
+}
+
+#bottomborder {
+	position: aboslute;
+	top: 10px;
+}
+
 .menu {
     	background-color: #EFBA35;
 	position: relative;
@@ -47,7 +56,6 @@
 	margin-right: 50px;
 	margin-left: 30px;
 	margin-top: 100px;
-	border-color: red;
 }
 
 .menu h1{
