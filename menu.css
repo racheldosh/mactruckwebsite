@@ -64,23 +64,6 @@
 	font-size: 140%;
 }
 
-.drinks {
-	background-color: #EFBA35;
-	position: absolute;
-	color: #242222;
-	padding: 14px;
-	font-family: "Annie Use Your Telescope";
-	margin-right: 70px;
-	margin-left: 40px;
-	margin-top: -400px;
-}
-.drinks h2{
-	font-size: 160%;
-}
-.drinks li{
-	font-size: 140%;
-}
-
 .condiments {
 	background-color: #EFBA35;
 	color: #242222;
