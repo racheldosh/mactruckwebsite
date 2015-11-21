@@ -35,6 +35,11 @@
 	right: 2em;
 }
 
+.nav .navcenter {
+	position: absolute;
+	top: 0px;
+}
+
 .menu {
 	border: solid;
 	border-color white;
@@ -71,7 +76,7 @@
 	font-family: "Annie Use Your Telescope";
 	border: 5px solid #242222;
 	position: relative;
-	top: -250px;
+	top: -550px;
 	right: 50px;
 	left: 470px;
 	width: 350px;
@@ -86,12 +91,15 @@
 .condiments table {
 	font-size: 140%;
 }
-.condiments td {
-	padding-right: 30px;
-}
+
 #meatcondiments {
 	padding-right: 15px;
 }
+
+.condiments td {
+	padding-right: 30px;
+}
+
     
 body {
     background-color: #242222;
