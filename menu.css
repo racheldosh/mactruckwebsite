@@ -1,24 +1,24 @@
 .nav {
-    background-color: #EFBA35;
-    position: fixed;
+    	background-color: #EFBA35;
+    	position: fixed;
 	top: 0px;
 	left: 0px;
 	padding: 10px;
-    height: 40px;
-	width: 100%;
-    z-index: 10;
-    text-align: center;
-    border-bottom: 5px #24222;
+	height: 40px;
+    	width: 100%;
+    	/* z-index: 10; */
+    	text-align: center;
 }
+
 .nav a {
-    color: #242222;
-    font-family: "Annie Use Your Telescope";
-    font-size: 180%;
-    font-weight: bold;
-    padding-left: .7em;
-    padding-right: .5em;
-    text-transform: uppercase;
-    text-decoration: none;
+    	color: #242222;
+    	font-family: "Annie Use Your Telescope";
+    	font-size: 180%;
+    	font-weight: bold;
+    	padding-left: .7em;
+    	padding-right: .5em;
+    	text-transform: uppercase;
+    	text-decoration: none;
 }
 
 .nav li{
@@ -37,8 +37,6 @@
 }
 
 .menu {
-	border-color:; white;
-	borde-sizer: 10px;
     	background-color: #EFBA35;
 	position: relative;
 	color: #242222;
@@ -75,7 +73,6 @@
 	right: 50px;
 	left: 470px;
 	width: 350px;
-	
 }
 
 .condiments h2{
@@ -83,6 +80,7 @@
 	font-size: 180%;
 	text-decoration: underline;
 }
+
 .condiments table {
 	font-size: 140%;
 }
@@ -95,9 +93,6 @@
 	padding-right: 30px;
 }
 
-
-
-    
 body {
     background-color: #242222;
 }
