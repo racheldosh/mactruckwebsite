@@ -39,14 +39,10 @@
 #topborder {
 	position: absolute;
 	z-index: 5;
-	top: -40px;
+	top: 0px;
 	width: 80%;
 }
 
-#bottomborder {
-	position: aboslute;
-	top: 10px;
-}
 
 .menu {
     	background-color: #EFBA35;
