@@ -1,7 +1,7 @@
 .nav {
     background-color: #EFBA35;
     position: fixed;
-	  top: 0px;
+	  top: px;
   	left: 0px;
 	  padding: 10px;
     height: 40px;
@@ -48,6 +48,7 @@
 	color: #242222;
 	text-align: center;
 	position: relative;
+	top: 100px;
 }
 
 body {
