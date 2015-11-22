@@ -1,6 +1,7 @@
  function calculatePrice(){
 
       //Get selected data  
+	  "use strict";
       var elt = document.getElementById("memoryItem");
       var memory = elt.options[elt.selectedIndex].value;
 
