@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <script src="orderform.js"></script>
 <link rel="stylesheet" type="text/css"
       href="//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" />
@@ -19,35 +21,35 @@
           			</div>
           		<div class="information"> 
           		</div>
-        		</div>
+        		
   
 
 <div class="theform">
-<FORM Name="myform">
-    <SELECT NAME="memoryItem" onChange="calculatePrice()" id="memoryItem">
-       <OPTION value="0">Select One Choice from List-Memory Upgrade</OPTION>
-       <OPTION value="49">8 GB add $49</OPTION>
-       <OPTION value="98">12 GB add $98</OPTION>
-       <OPTION value="159">16 GB add $159</OPTION>
-    </SELECT>
+<form Name="myform">
+    <select NAME="memoryItem" onChange="calculatePrice()" id="memoryItem">
+       <option value="0">Select One Choice from List-Memory Upgrade</option>
+       <option value="49">8 GB add $49</option>
+       <option value="98">12 GB add $98</option>
+       <option value="159">16 GB add $159</option>
+    </select>
 
-    <SELECT NAME="hddItem" onChange="calculatePrice()" id="hddItem">
-       <OPTION value="0">Select One Choice from List-HDD Upgrade</OPTION>
-       <OPTION value="109">1 TB HD add $109</OPTION>
-       <OPTION value="150">1.5 TB HD add $150</OPTION>
-       <OPTION value="199">2 TB HD add $199</OPTION>
-       <OPTION value="299">250 GB SSD add $299</OPTION>
-    </SELECT>
+    <select NAME="hddItem" onChange="calculatePrice()" id="hddItem">
+       <option value="0">Select One Choice from List-HDD Upgrade</option>
+       <option value="109">1 TB HD add $109</option>
+       <option value="150">1.5 TB HD add $150</option>
+       <option value="199">2 TB HD add $199</option>
+       <option value="299">250 GB SSD add $299</option>
+    </select>
 
-    <SELECT NAME="networkItem" onChange="calculatePrice()" id="networkItem">
-       <OPTION value="0">Select One Choice from List- Network Upgrade</OPTION>
-       <OPTION value="109">56K V90 or X2 Modem add $109</OPTION>
-       <OPTION value="79">10/100 NIC add $79</OPTION>
-       <OPTION value="279">Combo Modem and NIC add $279</OPTION>
-    </SELECT>
-</FORM>
-</div>
+    <select NAME="networkItem" onChange="calculatePrice()" id="networkItem">
+       <option value="0">Select One Choice from List- Network Upgrade</option>
+       <option value="109">56K V90 or X2 Modem add $109</option>
+       <option value="79">10/100 NIC add $79</option>
+       <option value="279">Combo Modem and NIC add $279</option>
+    </select>
+</form>
+
 <button type="button" onclick="calculatePrice()">Calculate</button>
-The new calculated price:<INPUT type="text" id="PicExtPrice" Size=8>
-    
+The new calculated price:<input type="text" id="PicExtPrice" Size="8">
+</div>    
      </body>
