@@ -11,7 +11,7 @@
 }
 
 .nav a {
-    	color: #242222;
+	color: #242222;
     	font-family: "Annie Use Your Telescope";
     	font-size: 180%;
     	font-weight: bold;
@@ -20,6 +20,7 @@
     	text-transform: uppercase;
     	text-decoration: none;
 }
+
 
 .nav li{
 	display: inline;
@@ -45,7 +46,7 @@
 
 
 .menu {
-    	background-color: #EFBA35;
+    background-color: #EFBA35;
 	position: relative;
 	color: #242222;
 	padding-top: 14px;
@@ -63,6 +64,7 @@
 }
 .menu h2{
 	font-size: 200%;
+	color: #B34B20;
 }
 .menu p {
 	font-size: 160%;
@@ -76,7 +78,9 @@
 	border: 3px solid black;
 	padding: 3px;
 	font-size: 200%;
-	text-align: center;
+	color: #242222;
+	position: relative;
+	left: 50%;
 }
 
 .condiments {
@@ -96,6 +100,7 @@
 	text-align: center;
 	font-size: 180%;
 	text-decoration: underline;
+	color: #B34B20;
 }
 
 .condiments table {
