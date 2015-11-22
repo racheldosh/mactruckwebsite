@@ -50,7 +50,7 @@
     text-align: center;
     margin-right: 120px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .information h2 {
@@ -66,11 +66,12 @@
 	text-align: center;
 	margin-right: 70px;
 	margin-left: 50px;
-	border-color: #242222;
-	border-right: solid;
-	border-left: solid;
-	border-top: double;
-	border-top: double;
+	border: 8px #B34B20;
+	border-style:ridge;
+}
+
+.moreinformation a {	
+	color: #B34B20;
 }
 
 .moreinformation h2 {
