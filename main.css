@@ -48,13 +48,15 @@
 
 .order-now-button a{
     color: #242222;
-	padding-left: .1em;
-    padding-right: .1em;
+	padding: 10px;
     font-size: 225%;
     font-family: "Annie Use Your Telescope";
 	text-decoration: none;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 4px;
+	border-color: #242222;
+	background-color: #B34B20;
+	border-radius: 20px;
 }
 .order-now-button {
 	text-align: center;
@@ -73,6 +75,10 @@
     top: -25px;
     left: 10vw;
     right: 10vw;
+}
+
+.more-info {
+	border-top: 10px solid #B34B20;
 }
 
 .banner {
@@ -125,8 +131,8 @@ h2 {
 	font-family: "Annie Use Your Telescope";
 	margin: 20px;
 	text-align: center;
-	border-top: 10px solid black;
-	padding-top: 10px;
+	border-top: 8px solid #B34B20;
+	padding-top: 20px;
 }
 
 body {
