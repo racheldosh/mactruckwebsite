@@ -19,6 +19,11 @@
 
       //convert data to integers
       mac = parseInt(mac);
+      if (mac != 0) {
+          mac = mac + 0.80
+      }
+      
+      
       cond1 = parseInt(cond1);
       cond2 = parseInt(cond2);
       cond3 = parseInt(cond3);
@@ -26,7 +31,7 @@
       
 
       //calculate total value  
-      var total = mac+0.80+cond1+cond2+cond3+drinkchoice; 
+      var total = mac+cond1+cond2+cond3+drinkchoice; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
