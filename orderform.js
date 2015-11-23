@@ -12,12 +12,12 @@
       var cond2 = elt.options[elt.selectedIndex].value;
 
       //convert data to integers
-      mac = parseFloat(mac);
-      cond1 = parseFloat(cond1);
-      cond2 = parseFloat(cond2);
+      mac = parseInt(mac);
+      cond1 = parseInt(cond1);
+      cond2 = parseInt(cond2);
 
       //calculate total value  
-      var total = mac+cond1+cond2; 
+      var total = mac+cond1+cond2+.80; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
