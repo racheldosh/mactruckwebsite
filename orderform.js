@@ -12,9 +12,9 @@
       var cond2 = elt.options[elt.selectedIndex].value;
 
       //convert data to integers
-      mac = parseInt(mac);
-      cond1 = parseInt(cond1);
-      cond2 = parseInt(cond2);
+      mac = parseFloat(mac).toFixed(2);
+      cond1 = parseFloat(cond1).toFixed(2);
+      cond2 = parseFloat(cond2).toFixed(2);
 
       //calculate total value  
       var total = mac+cond1+cond2; 
