@@ -51,6 +51,11 @@
 	top: 100px;
 }
 
+select {
+	font-family: "Annie Use Your Telescope";
+	font-size: 200%;
+}
+
 body {
   background-color: #242222;
 }
