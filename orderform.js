@@ -13,7 +13,7 @@
 
       //convert data to integers
       mac = parseFloat(mac);
-      mac = mac.toFixed(1);
+      mac = mac.toFixed(0);
       cond1 = parseInt(cond1);
       cond2 = parseInt(cond2);
 
