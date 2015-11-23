@@ -41,13 +41,13 @@
 	top: 10px;
 }
 
-form {
+.myform {
 	background-color: #EFBA35;
 	font-family: "Annie Use Your Telescope";
 	font-size: 150%;
 	color: #242222;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	top: 100px;
 }
 
