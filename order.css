@@ -49,6 +49,8 @@
 	text-align: center;
 	position: absolute;
 	top: 100px;
+	width: 90%;
+	border: 4px double #orange;
 }
 
 select {
