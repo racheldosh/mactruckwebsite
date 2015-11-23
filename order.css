@@ -53,9 +53,9 @@
 
 select {
 	font-family: "Annie Use Your Telescope";
-	font-size: 200%;
-	background-color: black;
-	color: yellow;
+	font-size: 150%;
+	background-color: #24222;
+	color: #EFBA35;
 }
 
 body {
