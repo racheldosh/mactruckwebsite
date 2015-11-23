@@ -13,17 +13,13 @@
 
       //convert data to integers
       mac = parseFloat(mac);
-      mac = mac.toFixed(6);
       cond1 = parseFloat(cond1);
-      cond1 = cond1.toFixed(6);
       cond2 = parseFloat(cond2);
-      cond2 = cond2.toFixed(6);
 
       //calculate total value  
       var total = mac+cond1+cond2; 
-      total = total.toFixed(2);
 
       //print value to  PicExtPrice 
-      document.getElementById("PicExtPrice").value = total;
+      document.getElementById("PicExtPrice").value = total.toFixed(2);
 
  }
