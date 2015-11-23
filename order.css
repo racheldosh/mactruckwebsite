@@ -54,8 +54,12 @@
 select {
 	font-family: "Annie Use Your Telescope";
 	font-size: 150%;
-	background-color: #24222;
+	background-color: #242222;
 	color: #EFBA35;
+}
+
+.theform h1 {
+	font-size: 170%;
 }
 
 body {
