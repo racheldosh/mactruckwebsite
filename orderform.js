@@ -2,22 +2,22 @@
 
       //Get selected data  
 	  "use strict";
-      var elt = document.getElementById("memoryItem");
-      var memory = elt.options[elt.selectedIndex].value;
+      var elt = document.getElementById("macChoice");
+      var mac = elt.options[elt.selectedIndex].value;
 
-      elt = document.getElementById("hddItem");
-      var hdd = elt.options[elt.selectedIndex].value;
+      elt = document.getElementById("firstCond");
+      var cond1 = elt.options[elt.selectedIndex].value;
 
-      elt = document.getElementById("networkItem");
-      var network = elt.options[elt.selectedIndex].value;
+      elt = document.getElementById("secondCond");
+      var cond2 = elt.options[elt.selectedIndex].value;
 
       //convert data to integers
-      memory = parseInt(memory);
-      hdd = parseInt(hdd);
-      network = parseInt(network);
+      mac = parseInt(mac);
+      cond1 = parseInt(cond1);
+      cond2 = parseInt(cond2);
 
       //calculate total value  
-      var total = memory+hdd+network; 
+      var total = mac+cond1+cond2; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value=total;
