@@ -66,6 +66,10 @@ select {
 	font-weight: bold;
 }
 
+#secondOrder {
+	display: none;
+}
+
 button {
 	font-family: "Annie Use Your Telescope";
 	font-weight: bold;
