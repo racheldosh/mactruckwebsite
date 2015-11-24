@@ -35,9 +35,10 @@
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
    
-      $("#order2button").click(function() { 
-          $("#secondOrder").toggle();
-      });
+      function myFunction(id) {
+          var div = document.getElementById(id);
+          div.style.display = div.style.display == "none" ? "block" : "none";
+      })
 
       //convert data to integers
       mac = parseInt(mac);
