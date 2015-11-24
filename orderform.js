@@ -19,7 +19,7 @@
       
       function myFunction() {
            document.getElementById("order2button").style.color = "#242222";
-           document.getElementById("macChoice2").style.visibility = "normal";
+           document.getElementById("macChoice2").style.visibility = "block";
       }
 
       //convert data to integers
