@@ -20,7 +20,7 @@
           			</div>
 </div>
           	
-<div class="theform" style="border: 4px double orange">
+<div class="theform">
 
 <form Name="myform">
       <h1> First choose some mac: </h1>
@@ -323,7 +323,7 @@
            <option value="2">Organic Coffee +$2</option>
            <option value="2">Organic Tea +$2</option>
       </select>
-      <button id="order2button" onclick="document.getElementById('secondOrder').style.visibility='hidden';">Still Hungry? Click here to add another order</button>
+      <button id="order2button" onClick="myFunction()">Still Hungry? Click here to add another order</button>
       <div id="secondOrder">
       <h1> Want some more mac? </h1>
       <select NAME="macChoice2" onChange="calculatePrice()" id="macChoice2">
