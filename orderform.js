@@ -62,3 +62,7 @@
       document.getElementById("PicExtPrice").value = total.toFixed(2);
 
  }
+ 
+ function myFunction {
+     document.getElementById("secondOrder").style.display = "block";
+ }
