@@ -36,7 +36,7 @@
       var drinkchoice = elt.options[elt.selectedIndex].value;
    
    function myFunction() {
-           document.getElementById("secondOrder").style.display = "block";
+           document.getElementById("secondOrder").style.display = "none";
       }
 
       //convert data to integers
