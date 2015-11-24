@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <script src="orderform.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <link rel="stylesheet" type="text/css"
       href="//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" />
   <link href="order.css" rel="stylesheet">
@@ -324,7 +323,7 @@
            <option value="2">Organic Coffee +$2</option>
            <option value="2">Organic Tea +$2</option>
       </select>
-      <a id="order2button" href="#">Still Hungry? Click here to add another order</a>
+      <button id="order2button" onclick="myFunction('id')">Still Hungry? Click here to add another order</button>
       <div id="secondOrder">
       <h1> Want some more mac? </h1>
       <select NAME="macChoice2" onChange="calculatePrice()" id="macChoice2">
