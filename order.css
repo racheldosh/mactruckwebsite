@@ -61,7 +61,7 @@ select {
 	font-size: 170%;
 }
 
-.secondOrder {
+#secondOrder {
 	display: none;
 }
 
