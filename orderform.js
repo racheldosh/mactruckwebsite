@@ -35,6 +35,9 @@
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
    
+   function myFunction() {
+           document.getElementById("secondOrder").style.display = "block";
+      }
 
       //convert data to integers
       mac = parseInt(mac);
