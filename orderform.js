@@ -16,13 +16,17 @@
       
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
+      
+      function myFunction() {
+           document.getElementById("order2button").style.color = "#242222";
+           document.getElementById("macChoice2").style.visibility = "normal";
+      }
 
       //convert data to integers
       mac = parseInt(mac);
       if (mac != 0) {
           mac = mac + 0.80
       }
-      
       
       cond1 = parseInt(cond1);
       cond2 = parseInt(cond2);
