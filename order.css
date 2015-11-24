@@ -67,7 +67,7 @@ select {
 }
 
 #secondOrder {
-	display: none;
+	visibility: visible;
 }
 
 button {
