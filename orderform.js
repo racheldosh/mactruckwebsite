@@ -18,8 +18,7 @@
       var drinkchoice = elt.options[elt.selectedIndex].value;
       
       function myFunction() {
-           document.getElementById("order2button").style.color = "#242222";
-           document.getElementById("macChoice2").style.display = "block";
+           document.getElementById("secondOrder").style.display = "block";
       }
 
       //convert data to integers
