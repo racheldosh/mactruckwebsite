@@ -70,6 +70,13 @@ select {
 	font-weight: bold;
 }
 
+button {
+	font-family: "Annie Use Your Telescope";
+	font-size: 150%;
+	background-color: #EFBA35;
+	color: #242222;
+}
+
 body {
   background-color: #242222;
 }
