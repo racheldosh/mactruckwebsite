@@ -49,11 +49,11 @@
       cond2 = parseInt(cond2);
       cond3 = parseInt(cond3);
       cond4 = parseInt(cond4);
-      cond5 = parseInt(cond4);
-      cond6 = parseInt(cond4);
-      cond7 = parseInt(cond4);
-      cond8 = parseInt(cond4);
-      cond9 = parseInt(cond4);
+      cond5 = parseInt(cond5);
+      cond6 = parseInt(cond6);
+      cond7 = parseInt(cond7);
+      cond8 = parseInt(cond8);
+      cond9 = parseInt(cond9);
       drinkchoice = parseInt(drinkchoice);
       
 
