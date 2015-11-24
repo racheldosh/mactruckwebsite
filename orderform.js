@@ -37,6 +37,36 @@
    
       elt = document.getElementById("macChoice2");
       var mac2 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("firstCond2");
+      var cond12 = elt.options[elt.selectedIndex].value;
+
+      elt = document.getElementById("secondCond2");
+      var cond22 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("thirdCond2");
+      var cond32 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond12");
+      var cond42 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond22");
+      var cond52 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond32");
+      var cond62 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond42");
+      var cond72 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond52");
+      var cond82 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond62");
+      var cond92 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("drink2");
+      var drinkchoice2 = elt.options[elt.selectedIndex].value;
 
       //convert data to integers
       mac = parseInt(mac);
@@ -60,9 +90,21 @@
       cond9 = parseInt(cond9);
       drinkchoice = parseInt(drinkchoice);
       
+      cond12 = parseInt(cond12);
+      cond22 = parseInt(cond22);
+      cond32 = parseInt(cond32);
+      cond42 = parseInt(cond42);
+      cond52 = parseInt(cond52);
+      cond62 = parseInt(cond62);
+      cond72 = parseInt(cond72);
+      cond82 = parseInt(cond82);
+      cond92 = parseInt(cond92);
+      drinkchoice2 = parseInt(drinkchoice2);
+      
 
       //calculate total value  
-      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2; 
+      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2
+                     +cond12+cond22+cond32+cond42+cond52+cond62+cond72+cond82+cond92+drinkchoice2; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
