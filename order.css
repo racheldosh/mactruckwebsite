@@ -47,7 +47,7 @@
 	top: 100px;
 	left: 20px;
 	width: 90%;
-	border: 4px double #orange;
+	border: 4px solid #B34B20;
 }
 
 select {
@@ -55,6 +55,7 @@ select {
 	font-size: 150%;
 	background-color: #242222;
 	color: #EFBA35;
+	border: none;
 }
 
 .theform h1 {
