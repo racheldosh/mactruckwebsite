@@ -1,3 +1,9 @@
+<?php
+if($_POST["firstcond"]) {
+    mail("rdcollins15@gmail.com", "Form to email message", $_POST["firstcond"], "From: rcbballgirl015@aol.com");
+}
+?>
+
 <!DOCTYPE html>
 
 <script src="orderform.js"></script>
