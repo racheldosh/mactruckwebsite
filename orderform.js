@@ -64,5 +64,5 @@
  }
  
  function myFunction() {
-     document.getElementById("secondOrder").style.display = "block";
+     document.getElementById("#secondOrder").style.display = "block";
  }
