@@ -17,19 +17,19 @@
       elt = document.getElementById("extraCond1");
       var cond4 = elt.options[elt.selectedIndex].value;
       
-      elt = document.getElementById("extraCond1");
+      elt = document.getElementById("extraCond2");
       var cond5 = elt.options[elt.selectedIndex].value;
       
-      elt = document.getElementById("extraCond1");
+      elt = document.getElementById("extraCond3");
       var cond6 = elt.options[elt.selectedIndex].value;
       
-      elt = document.getElementById("extraCond1");
+      elt = document.getElementById("extraCond4");
       var cond7 = elt.options[elt.selectedIndex].value;
       
-      elt = document.getElementById("extraCond1");
+      elt = document.getElementById("extraCond5");
       var cond8 = elt.options[elt.selectedIndex].value;
       
-      elt = document.getElementById("extraCond1");
+      elt = document.getElementById("extraCond6");
       var cond9 = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("drink");
@@ -46,7 +46,7 @@
       
       mac2 = parseInt(mac2);
       if(mac2 != 0) {
-         mac = mac + 0.80;
+         mac = mac + 0.80
       }
       
       cond1 = parseInt(cond1);
