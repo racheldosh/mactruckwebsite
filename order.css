@@ -61,6 +61,10 @@ select {
 	font-size: 170%;
 }
 
+.secondOrder {
+	visibility: hidden;
+}
+
 #totallabel {
 	font-size: 200%;
 	font-weight: bold;
