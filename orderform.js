@@ -35,12 +35,18 @@
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
    
-      
+      elt = document.getElementById("macChoice2");
+      var mac2 = elt.options[elt.selectedIndex].value;
 
       //convert data to integers
       mac = parseInt(mac);
       if (mac != 0) {
           mac = mac + 0.80
+      }
+      
+      mac2 = parseInt(mac2);
+      if(mac2 != 0) {
+         mac = mac + 0.80;
       }
       
       cond1 = parseInt(cond1);
@@ -56,7 +62,7 @@
       
 
       //calculate total value  
-      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice; 
+      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
