@@ -37,7 +37,7 @@
    
       function myFunction(id) {
           var div = document.getElementById(id);
-          div.style.display = div.style.display == "none" ? "block" : "none";
+          div.style.display = "block";
       })
 
       //convert data to integers
