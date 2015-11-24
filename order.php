@@ -22,7 +22,7 @@
           	
 <div class="theform">
 
-<form Name="myform">
+<form Name="myform" method="post" action="contact.php">
       <h1> First choose some mac: </h1>
     <select NAME="macChoice" onChange="calculatePrice()" id="macChoice">
        <option value="0">Choose some mac:  (+$8.80)</option>
@@ -626,6 +626,7 @@
            <option value="2">Organic Tea +$2</option>
       </select>
       </div>
+      <input type="submit" name="submit">
 </form>
 
 <p id="totallabel">Total: $<output type="text" id="PicExtPrice" Size="8"></p>
