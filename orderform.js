@@ -14,11 +14,29 @@
       elt = document.getElementById("thirdCond");
       var cond3 = elt.options[elt.selectedIndex].value;
       
+      elt = document.getElementById("extraCond1");
+      var cond4 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond1");
+      var cond5 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond1");
+      var cond6 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond1");
+      var cond7 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond1");
+      var cond8 = elt.options[elt.selectedIndex].value;
+      
+      elt = document.getElementById("extraCond1");
+      var cond9 = elt.options[elt.selectedIndex].value;
+      
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
       
       function myFunction() {
-           document.getElementById("secondOrder").style.display = "block";
+           document.getElementById("secondOrder").style.display = "none";
       }
 
       //convert data to integers
@@ -30,11 +48,17 @@
       cond1 = parseInt(cond1);
       cond2 = parseInt(cond2);
       cond3 = parseInt(cond3);
+      cond4 = parseInt(cond4);
+      cond5 = parseInt(cond4);
+      cond6 = parseInt(cond4);
+      cond7 = parseInt(cond4);
+      cond8 = parseInt(cond4);
+      cond9 = parseInt(cond4);
       drinkchoice = parseInt(drinkchoice);
       
 
       //calculate total value  
-      var total = mac+cond1+cond2+cond3+drinkchoice; 
+      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
