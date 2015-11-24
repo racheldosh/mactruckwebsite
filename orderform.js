@@ -63,6 +63,6 @@
 
  }
  
- function myFunction {
+ function myFunction() {
      document.getElementById("secondOrder").style.display = "block";
  }
