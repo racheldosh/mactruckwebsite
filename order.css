@@ -62,7 +62,7 @@ select {
 }
 
 .secondOrder {
-	visibility: hidden;
+	display: none;
 }
 
 #totallabel {
