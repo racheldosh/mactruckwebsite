@@ -70,8 +70,8 @@ select {
 	display: none;
 }
 
-.extraorder {
-	display:none;
+#extraorder {
+	display: none;
 }
 
 button {
@@ -90,10 +90,6 @@ input {
 	background-color: #B34B20;
 	color: #EFBA35;
 	border: 4px solid #242222;
-	position: relative;
-}
-
-#extraorderbutton {
 	position: relative;
 }
 
