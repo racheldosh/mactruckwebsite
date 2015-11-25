@@ -93,6 +93,10 @@ input {
 	position: relative;
 }
 
+#extraorderbutton {
+	position: relative;
+}
+
 body {
   background-color: #242222;
 }
