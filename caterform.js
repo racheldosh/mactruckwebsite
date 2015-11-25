@@ -5,19 +5,7 @@ function calculatePrice(){
       
       elt = document.getElementById("numPeople");
       var people = elt.options[elt.selectedIndex].value;
- 
-      elt = document.getElementById("macChoice");
-      var mac = elt.options[elt.selectedIndex].value;
 
-      elt = document.getElementById("firstCond");
-      var cond1 = elt.options[elt.selectedIndex].value;
-
-      elt = document.getElementById("secondCond");
-      var cond2 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("thirdCond");
-      var cond3 = elt.options[elt.selectedIndex].value;
-      
       elt = document.getElementById("extraCond1");
       var cond4 = elt.options[elt.selectedIndex].value;
       
@@ -38,18 +26,6 @@ function calculatePrice(){
       
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
-   
-      elt = document.getElementById("macChoice2");
-      var mac2 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("firstCond2");
-      var cond12 = elt.options[elt.selectedIndex].value;
-
-      elt = document.getElementById("secondCond2");
-      var cond22 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("thirdCond2");
-      var cond32 = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("extraCond12");
       var cond42 = elt.options[elt.selectedIndex].value;
@@ -91,9 +67,6 @@ function calculatePrice(){
       
       people = parseInt(people);
       
-      cond1 = parseInt(cond1);
-      cond2 = parseInt(cond2);
-      cond3 = parseInt(cond3);
       cond4 = parseInt(cond4);
       cond5 = parseInt(cond5);
       cond6 = parseInt(cond6);
@@ -102,9 +75,6 @@ function calculatePrice(){
       cond9 = parseInt(cond9);
       drinkchoice = parseInt(drinkchoice);
       
-      cond12 = parseInt(cond12);
-      cond22 = parseInt(cond22);
-      cond32 = parseInt(cond32);
       cond42 = parseInt(cond42);
       cond52 = parseInt(cond52);
       cond62 = parseInt(cond62);
@@ -121,10 +91,10 @@ function calculatePrice(){
       
 
       //calculate total value  
-      var total = people + (people)*cond4 + (people)*cond5 +(people)*cond6+(people)*cond7+(people)*cond8+(people)*cond9+
+      var total = people <!--+ (people)*cond4 + (people)*cond5 +(people)*cond6+(people)*cond7+(people)*cond8+(people)*cond9+
                     (people)*cond14+(people)*cond15+(people)*cond16+(people)*cond17+(people)*cond18+(people)*cond19+
                     (people)*cond24+(people)*cond25+(people)*cond26+(people*cond27)+(people)*cond28+(people)*cond29+
-                    (people)*drinkchoice;
+                    (people)*drinkchoice--> ;
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
