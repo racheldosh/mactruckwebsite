@@ -70,6 +70,10 @@ select {
 	display: none;
 }
 
+.extraorder {
+	display:none;
+}
+
 button {
 	font-family: "Annie Use Your Telescope";
 	font-weight: bold;
