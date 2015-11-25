@@ -29,14 +29,22 @@ if($_POST["firstcond"]) {
 <div class="theform">
 
 <form Name="myform">
-      <h1> First choose some mac: </h1>
-    <select NAME="macChoice" onChange="calculatePrice()" id="macChoice">
-       <option value="0">Choose some mac:  (+$8.80)</option>
-       <option value="8.80">Regular (Non-Organic)</option>
-       <option value="8.80">Organic Whole Wheat</option>
-       <option value="8.80">Organic Gluten Free</option>
+      <h1> How many people do you need to serve? </h1>
+    <select NAME="numPeople" onChange="calculatePrice()" id="numPeople">
+       <option value="100">0-10</option>
+       <option value="200">10-20</option>
+       <option value="300">20-30</option>
+       <option value="400">30+</option>
     </select>
-      <h1> Now Choose Up to Three FREE Condiments: </h1>
+      <h1> You can choose up to three different kinds of Mac! </h1>
+      <h1> Your first kind: </h1>
+  <select NAME="macChoice" onChange="calculatePrice()" id="macChoice">
+   <option value="0">Choose some mac: </option>
+   <option value="0">Regular (Non-Organic)</option>
+   <option value="0">Organic Whole Wheat</option>
+   <option value="0">Organic Gluten Free</option>
+  </select>
+        <h1> Now Choose Up to Three FREE Condiments: </h1>
     <select NAME="firstCond" onChange="calculatePrice()" id="firstCond">
        <option value="0">Choose Your First Condiment</option>
        <option value="0">Chives</option>
@@ -127,7 +135,7 @@ if($_POST["firstcond"]) {
        <option value="0">Bacon Bits</option>
        <option value="0">Fried Chicken</option>
       </select>
-      <h1>Add as many extra condiments you want (+$1 each)</h1>
+      <h1>Add as many extra condiments as you want (cost extra)</h1>
     <select NAME="extraCond1" onChange="calculatePrice()" id="extraCond1">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
@@ -320,18 +328,9 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-      <h1>Thirsty? We have some amazing local and organic drinks to choose from: </h1>
-     <select NAME="drink" onChange="calculatePrice()" id="drink">
-           <option value="0">Choose a drink option: </option>
-           <option value="3">Fresh Organic Orange Juice +$3</option>
-           <option value="2">Organic Hot Chocolate +$2</option>
-           <option value="2">Local Hot Apple Cider +$2</option>
-           <option value="2">Organic Coffee +$2</option>
-           <option value="2">Organic Tea +$2</option>
-      </select>
-      <button type="button" NAME="order2button" onClick="myFunction()" id="order2button">Still Hungry? Click here to add another order</button>
+      <button type="button" NAME="order2button" onClick="myFunction()" id="order2button">Click here to add another type of mac</button>
       <div id="secondOrder">
-      <h1> Want some more mac? </h1>
+      <h1> Your second kind of Mac: </h1>
       <select NAME="macChoice2" onChange="calculatePrice()" id="macChoice2">
        <option value="0">Choose some mac:  (+$8.80)</option>
        <option value="8.80">Regular (Non-Organic)</option>
@@ -429,7 +428,7 @@ if($_POST["firstcond"]) {
        <option value="0">Bacon Bits</option>
        <option value="0">Fried Chicken</option>
       </select>
-      <h1>Add as many extra condiments you want (+$1 each)</h1>
+      <h1>Add as many extra condiments as you want (cost extra)</h1>
     <select NAME="extraCond12" onChange="calculatePrice()" id="extraCond12">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
@@ -622,8 +621,301 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
+       <button type="button" NAME="order3button" onClick="myFunction2()" id="order3button">Click here to add another type of mac</button>
+      <div id="thirdOrder">
+      <h1> Your third kind of Mac: </h1>
+      <select NAME="macChoice3" onChange="calculatePrice()" id="macChoice3">
+       <option value="0">Choose some mac: </option>
+       <option value="0">Regular (Non-Organic)</option>
+       <option value="0">Organic Whole Wheat</option>
+       <option value="0">Organic Gluten Free</option>
+      </select>
+        <h1> Now Choose Up to Three FREE Condiments: </h1>
+    <select NAME="firstCond3" onChange="calculatePrice()" id="firstCond3">
+       <option value="0">Choose Your First Condiment</option>
+       <option value="0">Chives</option>
+       <option value="0">Maple Syrup</option>
+       <option value="0">Ranch</option>
+       <option value="0">Bell Peppers</option>
+       <option value="0">Blueberries</option>
+       <option value="0">Pizza Sauce</option>
+       <option value="0">Corn</option>
+       <option value="0">Fresh Thyme</option>
+       <option value="0">Fresh Rosemary</option>
+       <option value="0">Dorrito Pieces</option>
+       <option value="0">Chocolate Chips</option>
+       <option value="0">Buffalo Sauce</option>
+       <option value="0">Apple Bits</option>
+       <option value="0">Bread Crumbs</option>
+       <option value="0">Sriracha</option>
+       <option value="0">Chocolate Sauce</option>
+       <option value="0">Peas</option>
+       <option value="0">Mustard</option>
+       <option value="0">BBQ Sauce</option>
+       <option value="0">Lemon Juice</option>
+       <option value="0">Tuna</option>
+       <option value="0">Bacon Bits</option>
+       <option value="0">Fried Chicken</option>
+    </select>
+
+    <select NAME="secondCond3" onChange="calculatePrice()" id="secondCond3">
+       <option value="0">Choose Your Second Condiment: </option>
+       <option value="0">Chives</option>
+       <option value="0">Maple Syrup</option>
+       <option value="0">Ranch</option>
+       <option value="0">Bell Peppers</option>
+       <option value="0">Blueberries</option>
+       <option value="0">Pizza Sauce</option>
+       <option value="0">Corn</option>
+       <option value="0">Fresh Thyme</option>
+       <option value="0">Fresh Rosemary</option>
+       <option value="0">Dorrito Pieces</option>
+       <option value="0">Chocolate Chips</option>
+       <option value="0">Buffalo Sauce</option>
+       <option value="0">Apple Bits</option>
+       <option value="0">Bread Crumbs</option>
+       <option value="0">Sriracha</option>
+       <option value="0">Chocolate Sauce</option>
+       <option value="0">Buffalo Sauce</option>
+       <option value="0">Apple Bits</option>
+       <option value="0">Bread Crumbs</option>
+       <option value="0">Sriracha</option>
+       <option value="0">Chocolate Sauce</option>
+       <option value="0">Peas</option>
+       <option value="0">Mustard</option>
+       <option value="0">BBQ Sauce</option>
+       <option value="0">Lemon Juice</option>
+       <option value="0">Tuna</option>
+       <option value="0">Bacon Bits</option>
+       <option value="0">Fried Chicken</option>
+    </select>
+    
+    <select NAME="thirdCond3" onChange="calculatePrice()" id="thirdCond3">
+       <option value="0">Choose Your Third Condiment: </option>
+       <option value="0">Chives</option>
+       <option value="0">Maple Syrup</option>
+       <option value="0">Ranch</option>
+       <option value="0">Bell Peppers</option>
+       <option value="0">Blueberries</option>
+       <option value="0">Pizza Sauce</option>
+       <option value="0">Corn</option>
+       <option value="0">Fresh Thyme</option>
+       <option value="0">Fresh Rosemary</option>
+       <option value="0">Dorrito Pieces</option>
+       <option value="0">Chocolate Chips</option>
+       <option value="0">Buffalo Sauce</option>
+       <option value="0">Apple Bits</option>
+       <option value="0">Bread Crumbs</option>
+       <option value="0">Sriracha</option>
+       <option value="0">Chocolate Sauce</option>
+       <option value="0">Buffalo Sauce</option>
+       <option value="0">Apple Bits</option>
+       <option value="0">Bread Crumbs</option>
+       <option value="0">Sriracha</option>
+       <option value="0">Chocolate Sauce</option>
+       <option value="0">Peas</option>
+       <option value="0">Mustard</option>
+       <option value="0">BBQ Sauce</option>
+       <option value="0">Lemon Juice</option>
+       <option value="0">Tuna</option>
+       <option value="0">Bacon Bits</option>
+       <option value="0">Fried Chicken</option>
+      </select>
+      <h1>Add as many extra condiments as you want (cost extra)</h1>
+    <select NAME="extraCond13" onChange="calculatePrice()" id="extraCond13">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
+       <select NAME="extraCond23" onChange="calculatePrice()" id="extraCond23">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
+       <select NAME="extraCond33" onChange="calculatePrice()" id="extraCond33">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
+       <select NAME="extraCond43" onChange="calculatePrice()" id="extraCond43">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
+       <select NAME="extraCond53" onChange="calculatePrice()" id="extraCond53">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
+       <select NAME="extraCond63" onChange="calculatePrice()" id="extraCond63">
+       <option value="0">Choose an extra condiment: </option>
+       <option value="1">Chives</option>
+       <option value="1">Maple Syrup</option>
+       <option value="1">Ranch</option>
+       <option value="1">Bell Peppers</option>
+       <option value="1">Blueberries</option>
+       <option value="1">Pizza Sauce</option>
+       <option value="1">Corn</option>
+       <option value="1">Fresh Thyme</option>
+       <option value="1">Fresh Rosemary</option>
+       <option value="1">Dorrito Pieces</option>
+       <option value="1">Chocolate Chips</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Buffalo Sauce</option>
+       <option value="1">Apple Bits</option>
+       <option value="1">Bread Crumbs</option>
+       <option value="1">Sriracha</option>
+       <option value="1">Chocolate Sauce</option>
+       <option value="1">Peas</option>
+       <option value="1">Mustard</option>
+       <option value="1">BBQ Sauce</option>
+       <option value="1">Lemon Juice</option>
+       <option value="1">Tuna</option>
+       <option value="1">Bacon Bits</option>
+       <option value="1">Fried Chicken</option>
+      </select>
+      
       <h1>Thirsty? We have some amazing local and organic drinks to choose from: </h1>
-     <select NAME="drink2" onChange="calculatePrice()" id="drink2">
+     <select NAME="drink" onChange="calculatePrice()" id="drink">
            <option value="0">Choose a drink option: </option>
            <option value="3">Fresh Organic Orange Juice +$3</option>
            <option value="2">Organic Hot Chocolate +$2</option>
@@ -631,13 +923,7 @@ if($_POST["firstcond"]) {
            <option value="2">Organic Coffee +$2</option>
            <option value="2">Organic Tea +$2</option>
       </select>
-      <div>
-      <button type="button" NAME="extraorderbutton" onClick="myFunction2()" id="extraorderbutton">Still Hungry?</button>
-      </div>
-      <div id="extraorder">
-      <p>Maybe you're looking for our <a href="cater.html">catering order form</a></p>
-      <p>Or <a href="contact-us.html"> contact us directly </a> if you just have a big appetite and need a big order</p>
-      </div>
+      
       </div>
 </form>
 
