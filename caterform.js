@@ -3,10 +3,10 @@ function calculatePrice(){
       //Get selected data  
  "use strict";
       
-      var elt = document.getElementById("numPeople");
+      elt = document.getElementById("numPeople");
       var people = elt.options[elt.selectedIndex].value;
  
-      var elt = document.getElementById("macChoice");
+      elt = document.getElementById("macChoice");
       var mac = elt.options[elt.selectedIndex].value;
 
       elt = document.getElementById("firstCond");
@@ -89,6 +89,8 @@ function calculatePrice(){
 
       //convert data to integers
       
+      people = parseInt(people);
+      
       cond1 = parseInt(cond1);
       cond2 = parseInt(cond2);
       cond3 = parseInt(cond3);
@@ -134,5 +136,5 @@ function calculatePrice(){
  }
  
  function myFunction2() {
-     document.getElementById("extraorder").style.display = "block";
+     document.getElementById("thirdOrder").style.display = "block";
  }
