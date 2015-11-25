@@ -80,6 +80,14 @@ button {
 	margin-top: 50px;
 }
 
+input {
+	font-family: "Annie Use Your Telescope";
+	font-size: 100%;
+	background-color: #242222;
+	color: #EFBA35;
+	border: 4px solid #B34B20;
+}
+
 body {
   background-color: #242222;
 }
