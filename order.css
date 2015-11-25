@@ -76,7 +76,7 @@ select {
 }
 
 #extraorder a{
-	text-decoration: none;
+	text-decoration: underline;
 	color: #B34B20;
 }
 
