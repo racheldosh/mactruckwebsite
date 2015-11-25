@@ -72,6 +72,12 @@ select {
 
 #extraorder {
 	display: none;
+	font-size: 150%;
+}
+
+#extraorder a{
+	text-decoration: none;
+	color: #B34B20;
 }
 
 button {
