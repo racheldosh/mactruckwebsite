@@ -84,6 +84,10 @@ button {
 	margin-top: 50px;
 }
 
+output {
+	font-size: 300%;
+}
+
 input {
 	font-family: "Annie Use Your Telescope";
 	font-size: 200%;
