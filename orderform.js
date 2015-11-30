@@ -2,17 +2,8 @@
 
       //Get selected data  
  "use strict";
-      var elt = document.getElementById("macChoice");
+      elt = document.getElementById("macChoice");
       var mac = elt.options[elt.selectedIndex].value;
-
-      elt = document.getElementById("firstCond");
-      var cond1 = elt.options[elt.selectedIndex].value;
-
-      elt = document.getElementById("secondCond");
-      var cond2 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("thirdCond");
-      var cond3 = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("extraCond1");
       var cond4 = elt.options[elt.selectedIndex].value;
