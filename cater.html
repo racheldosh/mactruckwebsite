@@ -6,7 +6,7 @@ if($_POST["firstcond"]) {
 
 <!DOCTYPE html>
 
-<script src="orderform.js"></script>
+<script src="caterform.js"></script>
 <link rel="stylesheet" type="text/css"
       href="//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" />
   <link href="cater.css" rel="stylesheet">
@@ -31,10 +31,10 @@ if($_POST["firstcond"]) {
 <form Name="mycaterform">
       <h1> How many people do you need to serve? </h1>
     <select NAME="numPeople" onChange="calculatePriceC()" id="numPeople">
-       <option value="100.00">0-10</option>
-       <option value="200.00">10-20</option>
-       <option value="300.00">20-30</option>
-       <option value="400.00">30+</option>
+       <option value="0">0-10</option>
+       <option value="0">10-20</option>
+       <option value="0">20-30</option>
+       <option value="0">30+</option>
     </select>
       <h1> You can choose up to three different kinds of Mac! </h1>
       <h1> Your first kind: </h1>
@@ -45,7 +45,7 @@ if($_POST["firstcond"]) {
    <option value="0">Organic Gluten Free</option>
   </select>
         <h1> Now Choose Up to Three FREE Condiments: </h1>
-    <select NAME="firstCond" onChange="calculatePrice()" id="firstCond">
+    <select NAME="firstCond" onChange="calculatePriceC()" id="firstCond">
        <option value="0">Choose Your First Condiment</option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -72,7 +72,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
 
-    <select NAME="secondCond" onChange="calculatePrice()" id="secondCond">
+    <select NAME="secondCond" onChange="calculatePriceC()" id="secondCond">
        <option value="0">Choose Your Second Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -104,7 +104,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
     
-    <select NAME="thirdCond" onChange="calculatePrice()" id="thirdCond">
+    <select NAME="thirdCond" onChange="calculatePriceC()" id="thirdCond">
        <option value="0">Choose Your Third Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -136,7 +136,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
       </select>
       <h1>Add as many extra condiments as you want (cost extra)</h1>
-    <select NAME="extraCond1" onChange="calculatePrice()" id="extraCond1">
+    <select NAME="extraCond1" onChange="calculatePriceC()" id="extraCond1">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -168,7 +168,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond2" onChange="calculatePrice()" id="extraCond2">
+       <select NAME="extraCond2" onChange="calculatePriceC()" id="extraCond2">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -200,7 +200,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond3" onChange="calculatePrice()" id="extraCond3">
+       <select NAME="extraCond3" onChange="calculatePriceC()" id="extraCond3">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -232,7 +232,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond4" onChange="calculatePrice()" id="extraCond4">
+       <select NAME="extraCond4" onChange="calculatePriceC()" id="extraCond4">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -264,7 +264,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond5" onChange="calculatePrice()" id="extraCond5">
+       <select NAME="extraCond5" onChange="calculatePriceC()" id="extraCond5">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -296,7 +296,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond6" onChange="calculatePrice()" id="extraCond6">
+       <select NAME="extraCond6" onChange="calculatePriceC()" id="extraCond6">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -331,14 +331,14 @@ if($_POST["firstcond"]) {
       <button type="button" NAME="order2button" onClick="myFunction3()" id="order2button">Click here to add another type of mac</button>
       <div id="secondOrder">
       <h1> Your second kind of Mac: </h1>
-      <select NAME="macChoice2" onChange="calculatePrice()" id="macChoice2">
+      <select NAME="macChoice2" onChange="calculatePriceC()" id="macChoice2">
        <option value="0">Choose some mac: </option>
        <option value="0">Regular (Non-Organic)</option>
        <option value="0">Organic Whole Wheat</option>
        <option value="0">Organic Gluten Free</option>
       </select>
         <h1> Now Choose Up to Three FREE Condiments: </h1>
-    <select NAME="firstCond2" onChange="calculatePrice()" id="firstCond2">
+    <select NAME="firstCond2" onChange="calculatePriceC()" id="firstCond2">
        <option value="0">Choose Your First Condiment</option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -365,7 +365,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
 
-    <select NAME="secondCond2" onChange="calculatePrice()" id="secondCond2">
+    <select NAME="secondCond2" onChange="calculatePriceC()" id="secondCond2">
        <option value="0">Choose Your Second Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -397,7 +397,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
     
-    <select NAME="thirdCond2" onChange="calculatePrice()" id="thirdCond2">
+    <select NAME="thirdCond2" onChange="calculatePriceC()" id="thirdCond2">
        <option value="0">Choose Your Third Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -429,7 +429,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
       </select>
       <h1>Add as many extra condiments as you want (cost extra)</h1>
-    <select NAME="extraCond12" onChange="calculatePrice()" id="extraCond12">
+    <select NAME="extraCond12" onChange="calculatePriceC()" id="extraCond12">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -461,7 +461,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond22" onChange="calculatePrice()" id="extraCond22">
+       <select NAME="extraCond22" onChange="calculatePriceC()" id="extraCond22">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -493,7 +493,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond32" onChange="calculatePrice()" id="extraCond32">
+       <select NAME="extraCond32" onChange="calculatePriceC()" id="extraCond32">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -525,7 +525,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond42" onChange="calculatePrice()" id="extraCond42">
+       <select NAME="extraCond42" onChange="calculatePriceC()" id="extraCond42">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -557,7 +557,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond52" onChange="calculatePrice()" id="extraCond52">
+       <select NAME="extraCond52" onChange="calculatePriceC()" id="extraCond52">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -589,7 +589,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond62" onChange="calculatePrice()" id="extraCond62">
+       <select NAME="extraCond62" onChange="calculatePriceC()" id="extraCond62">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -624,14 +624,14 @@ if($_POST["firstcond"]) {
        <button type="button" NAME="order3button" onClick="myFunction4()" id="order3button">Click here to add another type of mac</button>
       <div id="thirdOrder">
       <h1> Your third kind of Mac: </h1>
-      <select NAME="macChoice3" onChange="calculatePrice()" id="macChoice3">
+      <select NAME="macChoice3" onChange="calculatePriceC()" id="macChoice3">
        <option value="0">Choose some mac: </option>
        <option value="0">Regular (Non-Organic)</option>
        <option value="0">Organic Whole Wheat</option>
        <option value="0">Organic Gluten Free</option>
       </select>
         <h1> Now Choose Up to Three FREE Condiments: </h1>
-    <select NAME="firstCond3" onChange="calculatePrice()" id="firstCond3">
+    <select NAME="firstCond3" onChange="calculatePriceC()" id="firstCond3">
        <option value="0">Choose Your First Condiment</option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -658,7 +658,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
 
-    <select NAME="secondCond3" onChange="calculatePrice()" id="secondCond3">
+    <select NAME="secondCond3" onChange="calculatePriceC()" id="secondCond3">
        <option value="0">Choose Your Second Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -690,7 +690,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
     </select>
     
-    <select NAME="thirdCond3" onChange="calculatePrice()" id="thirdCond3">
+    <select NAME="thirdCond3" onChange="calculatePriceC()" id="thirdCond3">
        <option value="0">Choose Your Third Condiment: </option>
        <option value="0">Chives</option>
        <option value="0">Maple Syrup</option>
@@ -722,7 +722,7 @@ if($_POST["firstcond"]) {
        <option value="0">Fried Chicken</option>
       </select>
       <h1>Add as many extra condiments as you want (cost extra)</h1>
-    <select NAME="extraCond13" onChange="calculatePrice()" id="extraCond13">
+    <select NAME="extraCond13" onChange="calculatePriceC()" id="extraCond13">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -754,7 +754,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond23" onChange="calculatePrice()" id="extraCond23">
+       <select NAME="extraCond23" onChange="calculatePriceC()" id="extraCond23">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -786,7 +786,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond33" onChange="calculatePrice()" id="extraCond33">
+       <select NAME="extraCond33" onChange="calculatePriceC()" id="extraCond33">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -818,7 +818,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond43" onChange="calculatePrice()" id="extraCond43">
+       <select NAME="extraCond43" onChange="calculatePriceC()" id="extraCond43">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -850,7 +850,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond53" onChange="calculatePrice()" id="extraCond53">
+       <select NAME="extraCond53" onChange="calculatePriceC()" id="extraCond53">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
@@ -882,7 +882,7 @@ if($_POST["firstcond"]) {
        <option value="1">Fried Chicken</option>
       </select>
       
-       <select NAME="extraCond63" onChange="calculatePrice()" id="extraCond63">
+       <select NAME="extraCond63" onChange="calculatePriceC()" id="extraCond63">
        <option value="0">Choose an extra condiment: </option>
        <option value="1">Chives</option>
        <option value="1">Maple Syrup</option>
