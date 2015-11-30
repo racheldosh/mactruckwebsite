@@ -2,7 +2,7 @@
 
       //Get selected data  
  "use strict";
-      elt = document.getElementById("macChoice");
+      var elt = document.getElementById("macChoice");
       var mac = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("extraCond1");
