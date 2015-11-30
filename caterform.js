@@ -1,4 +1,4 @@
-function calculatePrice(){
+function calculatePriceC(){
 
       //Get selected data  
  "use strict";
@@ -94,14 +94,14 @@ function calculatePrice(){
       var total = people;
 
       //print value to  PicExtPrice 
-      document.getElementById("PicExtPrice").value = total.toFixed(2);
+      document.getElementById("PicExtPriceC").value = total.toFixed(2);
 
  }
  
- function myFunction() {
+ function myFunction3() {
      document.getElementById("secondOrder").style.display = "block";
  }
  
- function myFunction2() {
+ function myFunction4() {
      document.getElementById("thirdOrder").style.display = "block";
  }
