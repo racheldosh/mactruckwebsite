@@ -91,10 +91,7 @@ function calculatePrice(){
       
 
       //calculate total value  
-      var total = people <!--+ (people)*cond4 + (people)*cond5 +(people)*cond6+(people)*cond7+(people)*cond8+(people)*cond9+
-                    (people)*cond14+(people)*cond15+(people)*cond16+(people)*cond17+(people)*cond18+(people)*cond19+
-                    (people)*cond24+(people)*cond25+(people)*cond26+(people*cond27)+(people)*cond28+(people)*cond29+
-                    (people)*drinkchoice--> ;
+      var total = people;
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
