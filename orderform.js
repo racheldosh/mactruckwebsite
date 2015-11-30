@@ -210,3 +210,11 @@
       document.getElementById("PicExtPriceC").value = total.toFixed(2);
 
  }
+ 
+  function myFunction3() {
+     document.getElementById("secondOrder").style.display = "block";
+ }
+ 
+ function myFunction4() {
+     document.getElementById("thirdOrder").style.display = "block";
+ }
