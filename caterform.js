@@ -81,7 +81,7 @@
  
  function myFunction4() {
   "use strict";
-     document.getElementById("thirdorder").style.display = "block";
+     document.getElementById("thirdOrder").style.display = "block";
      
  }
   
