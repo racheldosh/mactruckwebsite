@@ -95,6 +95,17 @@ button {
 	position: relative;
 }
 
+button:link {
+}
+
+button:visited {
+}
+
+button:hover {
+	background-color: #B34B20;
+}
+
+
 .button1{
 	position: relative;
 }
