@@ -2,8 +2,8 @@
 
       //Get selected data  
  "use strict";
-      var elt = document.getElementById("macChoice");
-      var mac = elt.options[elt.selectedIndex].value;
+      var elt = document.getElementById("numPeople");
+      var people = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("extraCond1");
       var cond4 = elt.options[elt.selectedIndex].value;
@@ -25,18 +25,6 @@
       
       elt = document.getElementById("drink");
       var drinkchoice = elt.options[elt.selectedIndex].value;
-   
-      elt = document.getElementById("macChoice2");
-      var mac2 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("firstCond2");
-      var cond12 = elt.options[elt.selectedIndex].value;
-
-      elt = document.getElementById("secondCond2");
-      var cond22 = elt.options[elt.selectedIndex].value;
-      
-      elt = document.getElementById("thirdCond2");
-      var cond32 = elt.options[elt.selectedIndex].value;
       
       elt = document.getElementById("extraCond12");
       var cond42 = elt.options[elt.selectedIndex].value;
@@ -56,28 +44,17 @@
       elt = document.getElementById("extraCond62");
       var cond92 = elt.options[elt.selectedIndex].value;
       
-    
-
-      //convert data to integers
-      mac = parseInt(mac);
-      if (mac !== 0) {
-          mac = mac + 0.80;
-      }
-      
-      mac2 = parseInt(mac2);
-      if(mac2 !== 0) {
-         mac = mac + 0.80;
-      }
-      
      
+      people = parseInt(people);
+      
       cond4 = parseInt(cond4);
       cond5 = parseInt(cond5);
       cond6 = parseInt(cond6);
       cond7 = parseInt(cond7);
       cond8 = parseInt(cond8);
       cond9 = parseInt(cond9);
-      drinkchoice = parseInt(drinkchoice);
       
+      drinkchoice = parseInt(drinkchoice);
       
       cond42 = parseInt(cond42);
       cond52 = parseInt(cond52);
@@ -89,7 +66,8 @@
       
 
       //calculate total value  
-      var total = mac+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2+cond42+cond52+cond62+cond72+cond82+cond92; 
+      var total = people+(people*cond4)+(people*cond5)+(people*cond6)+(people*cond7)+(people*cond8)+(people*cond9)+(people*drinkchoice)+(people*cond42)+(people*cond52)+(people*cond62)+(people*cond72)+(people*cond82)+(people*cond92);
+      
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPriceC").value = total.toFixed(2);
