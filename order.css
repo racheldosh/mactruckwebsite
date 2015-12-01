@@ -100,6 +100,10 @@ input {
 	position: relative;
 }
 
+.button1 {
+	position: relative;
+}
+
 body {
   background-color: #242222;
 }
