@@ -7,14 +7,25 @@
 }
 
 .jumbotron .nav a {
-    color: #242222;
     font-family: "Annie Use Your Telescope";
     font-size: 180%;
     font-weight: bold;
     padding-left: .7em;
     padding-right: .5em;
     text-transform: uppercase;
-	text-decoration: none;
+    text-decoration: none;
+}
+
+.jumbotron .nav a:link {
+	color: #242222;
+}
+
+.jumbotron .nav a:visited {
+	color: #242222;
+}
+
+.jumbotron .nav a:hover {
+	color: #B34B20;
 }
 
 .jumbotron .nav li{
