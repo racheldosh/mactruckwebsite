@@ -112,17 +112,15 @@ button:hover {
 input {
 	font-family: "Annie Use Your Telescope";
 	font-size: 200%;
+	background-color: #B34B20;
+	color: #242222;
 	border: 4px solid #242222;
 	position: relative;
 }
 
 input:link {
-	background-color: #B34B20;
-	color: #EFBA35;
 }
 input:visited {
-	background-color: #B34B20;
-	color: #EFBA35;
 }
 input:hover {
 	background-color: #EFBA35;
