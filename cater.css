@@ -1,3 +1,12 @@
+@media only screen and (max-width: 500px) {
+    .nav a{
+    	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+    .navcenter{
+    	display:none;
+    }
+}
+
 .nav {
     	background-color: #EFBA35;
     	position: fixed;
