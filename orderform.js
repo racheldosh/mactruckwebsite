@@ -61,18 +61,16 @@
 
       //convert data to integers
       mac = parseInt(mac);
-      if (mac != 0) {
+      if (mac !== 0) {
           mac = mac + 0.80;
       }
       
       mac2 = parseInt(mac2);
-      if(mac2 != 0) {
+      if(mac2 !== 0) {
          mac = mac + 0.80;
       }
       
-      cond1 = parseInt(cond1);
-      cond2 = parseInt(cond2);
-      cond3 = parseInt(cond3);
+     
       cond4 = parseInt(cond4);
       cond5 = parseInt(cond5);
       cond6 = parseInt(cond6);
@@ -94,7 +92,7 @@
       
 
       //calculate total value  
-      var total = mac+cond1+cond2+cond3+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2+cond12+cond22+cond32+cond42+cond52+cond62+cond72+cond82+cond92+drinkchoice2; 
+      var total = mac+cond4+cond5+cond6+cond7+cond8+cond9+drinkchoice+mac2+cond12+cond22+cond32+cond42+cond52+cond62+cond72+cond82+cond92+drinkchoice2; 
 
       //print value to  PicExtPrice 
       document.getElementById("PicExtPrice").value = total.toFixed(2);
@@ -102,10 +100,12 @@
  }
  
  function myFunction() {
+  "use strict";
      document.getElementById("secondOrder").style.display = "block";
  }
  
  function myFunction2() {
+  "use strict";
      document.getElementById("extraorder").style.display = "block";
      
  }
