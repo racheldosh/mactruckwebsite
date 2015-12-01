@@ -11,7 +11,6 @@
 }
 
 .nav a {
-	color: #242222;
     	font-family: "Annie Use Your Telescope";
     	font-size: 180%;
     	font-weight: bold;
@@ -22,6 +21,17 @@
 }
 
 
+.nav a:link {
+	color: #242222;
+}
+
+.nav a:visited {
+	color: #242222;
+}
+
+.nav a:hover {
+	color: #B34B20;
+}
 .nav li{
 	display: inline;
 }
