@@ -18,15 +18,15 @@
 }
 
 .jumbotron .nav a:link {
-	color: green;
+	color: #EFBA35;
 }
 
 .jumbotron .nav a:visited {
-	color: green;
+	color: #EFBA35;
 }
 
 .jumbotron .nav a:hover {
-	color: #242222;
+	color: green;
 }
 
 .jumbotron .nav li{
@@ -49,13 +49,13 @@
 
 .jumbotron h1 {
     color: #242222;
-    font-size: 500%;
+    font-size: 600%;
     font-weight: bold;
     font-family: "Annie Use Your Telescope";
-	text-align: center;
-	position: absolute;
-	top: 60px;
-	width: 100vw;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    width: 100vw;
 }
 
 .order-now-button a{
@@ -71,13 +71,13 @@
 }
 
 .order-now-button a:link {
-	background-color: #B34B20;
+	background-color: #EFBA35;
 }
 .order-now-button a:visited {
-	background-color: #B34B20;
+	background-color: #EFBA35;
 }
 .order-now-button a:hover {
-	background-color: #EFBA35;
+	background-color: green;
 }
 
 
@@ -101,7 +101,7 @@
 }
 
 .more-info {
-	border-top: 10px solid #B34B20;
+	border-top: 10px solid green;
 }
 
 .banner {
@@ -142,19 +142,17 @@ table a{
 	padding: 3px;
 	position:relative;
 	top: 1em;
+	color: black;
 }
 
 table a:link {
-	color: black;
 	background-color: #E9AC33;
 }
 table a:visited {
-	color: black;
 	background-color: #E9AC33;
 }
 table a:hover {
-	color: #E9AC33;
-	background-color: #B34B20;
+	background-color: green;
 }
 
 
@@ -166,7 +164,7 @@ h2 {
 	font-family: "Annie Use Your Telescope";
 	margin: 20px;
 	text-align: center;
-	border-top: 8px solid #B34B20;
+	border-top: 8px solid green;
 	padding-top: 20px;
 }
 
