@@ -18,15 +18,15 @@
 }
 
 .jumbotron .nav a:link {
-	color: #242222;
+	color: green;
 }
 
 .jumbotron .nav a:visited {
-	color: #242222;
+	color: green;
 }
 
 .jumbotron .nav a:hover {
-	color: #B34B20;
+	color: #242222;
 }
 
 .jumbotron .nav li{
