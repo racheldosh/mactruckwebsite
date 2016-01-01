@@ -139,7 +139,7 @@ table {
 table a{
 	font-size: 200%;
 	text-decoration:none;
-	padding: 3px;
+	padding: 3px 3px 3px 3px;
 	position:relative;
 	top: 1em;
 	color: black;
