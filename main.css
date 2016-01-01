@@ -1,9 +1,9 @@
 .jumbotron {
     background-image: url('http://www.budgetsavvydiva.com/wp-content/uploads/2014/06/Mac-and-Cheese-Boston.jpg');
     position: relative;
-    padding-bottom: -10em;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 10em 10em;
     height: 95vh;
 }
 
