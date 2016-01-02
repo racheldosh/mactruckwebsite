@@ -28,7 +28,7 @@
 }
 
 .nav a:hover {
-	color: #B34B20;
+	color: green;
 }
 
 .nav li{
@@ -55,7 +55,7 @@
 .information {
     background-color: #242222;
     border: double 8px;
-    border-color: #B34B20;
+    border-color: green;
     position: relative;
     color: #EFBA35;
     padding: 14px;
