@@ -143,13 +143,13 @@ table a{
 }
 
 table a:link {
-	color: black;
+	color: #E9AC33;
 }
 table a:visited {
-	color: black;
+	color: #E9AC33;
 }
 table a:hover {
-	color: #E9AC33;
+	color: green;
 }
 
 
