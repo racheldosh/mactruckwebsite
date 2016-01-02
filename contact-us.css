@@ -28,7 +28,7 @@
 }
 
 .nav a:hover {
-	color: #B34B20;
+	color: green;
 }
 .nav li{
 	display: inline;
@@ -76,12 +76,12 @@
 	text-align: center;
 	margin-right: 70px;
 	margin-left: 50px;
-	border: 8px #B34B20;
+	border: 8px green;
 	border-style:ridge;
 }
 
 .moreinformation a {	
-	color: #B34B20;
+	color: green;
 }
 
 .moreinformation h2 {
