@@ -29,7 +29,7 @@
 }
 
 .nav a:hover {
-	color: #B34B20;
+	color: green;
 }
 
 .nav li{
@@ -74,7 +74,7 @@
 }
 .menu h2{
 	font-size: 200%;
-	color: #B34B20;
+	color: green;
 }
 .menu p {
 	font-size: 160%;
@@ -100,7 +100,7 @@
 	color: #242222;
 }
 #orderbutton:hover {
-	background-color: #B34B20;
+	background-color: green;
 }
 
 .condiments {
@@ -120,7 +120,7 @@
 	text-align: center;
 	font-size: 180%;
 	text-decoration: underline;
-	color: #B34B20;
+	color: green;
 }
 
 .condiments table {
