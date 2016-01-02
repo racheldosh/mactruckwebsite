@@ -1,11 +1,4 @@
-@media only screen and (max-width: 500px) {
-    .nav a{
-    	font-family: "Arial";
-    }
-    .navcenter{
-    	display:none;
-    }
-}
+
 
 .nav {
     	background-color: #EFBA35;
