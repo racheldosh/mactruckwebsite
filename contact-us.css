@@ -20,11 +20,11 @@
 }
 
 .nav a:link {
-	color: #242222;
+	color: black;
 }
 
 .nav a:visited {
-	color: #242222;
+	color: black;
 }
 
 .nav a:hover {
@@ -52,7 +52,7 @@
 }
 
 .information {
-    background-color: #242222;
+    background-color: black;
     position: relative;
     color: #EFBA35;
     padding: 14px;
@@ -70,14 +70,13 @@
 .moreinformation {
 	background-color: #EFBA35;
 	position: relative;
-	color: #242222;
+	color: black;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
 	text-align: center;
 	margin-right: 70px;
 	margin-left: 50px;
-	border: 8px green;
-	border-style:ridge;
+	border: ridge 8px white;
 }
 
 .moreinformation a {	
@@ -89,5 +88,5 @@
 }
     
 body {
-    background-color: #242222;
+    background-color: black;
 }
