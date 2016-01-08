@@ -54,6 +54,7 @@
     font-weight: bold;
     font-family: "Annie Use Your Telescope";
     text-align: center;
+    text-outline: 2px 2px #ff0000;
     position: absolute;
     top: 130px;
     width: 100vw;
