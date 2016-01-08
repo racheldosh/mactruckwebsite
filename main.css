@@ -7,7 +7,7 @@
     height: 95vh;
 }
 .jumbotron .nav {
-	border-top: 10px solid white;
+	border-bottom: 10px solid white;
 }
 
 .jumbotron .nav a {
