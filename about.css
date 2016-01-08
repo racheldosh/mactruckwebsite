@@ -8,6 +8,7 @@
 	width: 100%;
     z-index: 10;
     text-align: center;
+    border-bottom: solid 3px white;
 }
 .nav a {
     font-family: "Annie Use Your Telescope";
@@ -54,8 +55,7 @@
 
 .information {
     background-color: black;
-    border: double 8px;
-    border-color: green;
+    border: double 8px white;
     position: relative;
     color: #EFBA35;
     padding: 14px;
