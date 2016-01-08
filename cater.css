@@ -23,11 +23,11 @@
 }
 
 .nav a:link {
-	color: #242222;
+	color: black;
 }
 
 .nav a:visited {
-	color: #242222;
+	color: black;
 }
 
 .nav a:hover {
@@ -53,20 +53,21 @@
 	background-color: #EFBA35;
 	font-family: "Annie Use Your Telescope";
 	font-size: 130%;
-	color: #242222;
+	color: black;
 	text-align: center;
 	position: absolute;
 	top: 100px;
 	left: 50px;
 	width: 90%;
+	border: solid 3px white;
 }
 
 select {
 	font-family: "Annie Use Your Telescope";
 	font-size: 100%;
-	background-color: #242222;
+	background-color: black;
 	color: #EFBA35;
-	border: 4px solid green;
+	border: 4px solid white;
 }
 
 .theform h1 {
@@ -91,8 +92,8 @@ button {
 	font-weight: bold;
 	font-size: 150%;
 	background-color: #EFBA35;
-	color: #242222;
-	border: 4px solid #242222;
+	color: black;
+	border: 4px solid black;
 	margin-top: 50px;
 	position: relative;
 }
@@ -120,8 +121,8 @@ input {
 	font-family: "Annie Use Your Telescope";
 	font-size: 200%;
 	background-color: #EFBA35;
-	color: #242222;
-	border: 4px solid #242222;
+	color: black;
+	border: 4px solid black;
 	position: relative;
 }
 
@@ -134,5 +135,5 @@ input:hover {
 }
 
 body {
-  background-color: #242222;
+  background-color: black;
 }
