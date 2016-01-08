@@ -21,11 +21,11 @@
 }
 
 .nav a:link {
-	color: #242222;
+	color: black;
 }
 
 .nav a:visited {
-	color: #242222;
+	color: black;
 }
 
 .nav a:hover {
@@ -58,7 +58,7 @@
 .menu {
     background-color: #EFBA35;
 	position: relative;
-	color: #242222;
+	color: black;
 	padding-top: 14px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -88,16 +88,16 @@
 	border: 3px solid black;
 	padding: 3px;
 	font-size: 200%;
-	color: #242222;
+	color: black;
 	position: relative;
 	left: 50%;
 }
 
 #orderbutton:link {
-	color: #242222;
+	color: black;
 }
 #orderbutton:visited {
-	color: #242222;
+	color: black;
 }
 #orderbutton:hover {
 	background-color: green;
@@ -105,10 +105,10 @@
 
 .condiments {
 	background-color: #EFBA35;
-	color: #242222;
+	color: black;
 	padding: 14px;
 	font-family: "Annie Use Your Telescope";
-	border: 5px solid #242222;
+	border: 5px solid black;
 	position: relative;
 	top: -850px;
 	right: 50px;
