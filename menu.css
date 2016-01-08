@@ -74,7 +74,7 @@
 }
 .menu h2{
 	font-size: 200%;
-	color: green;
+	color: black;
 }
 .menu p {
 	font-size: 160%;
@@ -120,7 +120,7 @@
 	text-align: center;
 	font-size: 180%;
 	text-decoration: underline;
-	color: green;
+	color: black;
 }
 
 .condiments table {
