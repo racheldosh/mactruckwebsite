@@ -101,6 +101,7 @@ button:link {
 }
 
 button:visited {
+	background-color: black;
 }
 
 button:hover {
