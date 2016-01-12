@@ -49,8 +49,8 @@
 
 .theform {
 	background-color: #EFBA35;
-	font-family: "Annie Use Your Telescope";
-	font-size: 150%;
+	font-family: Georgia;
+	font-size: 80%;
 	color: black;
 	text-align: center;
 	position: absolute;
@@ -60,7 +60,7 @@
 }
 
 select {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-size: 100%;
 	background-color: white;
 	color: black;
@@ -68,7 +68,7 @@ select {
 }
 
 .theform h1 {
-	font-size: 170%;
+	font-size: 120%;
 }
 
 #totallabel {
@@ -91,7 +91,7 @@ select {
 }
 
 button {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-weight: bold;
 	font-size: 150%;
 	color: black;
@@ -109,7 +109,7 @@ button:hover {
 }
 
 input {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-size: 200%;
 	background-color: #EFBA35;
 	color: black;
