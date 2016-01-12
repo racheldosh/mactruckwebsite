@@ -51,7 +51,7 @@
 
 .caterform {
 	background-color: #EFBA35;
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-size: 130%;
 	color: black;
 	text-align: center;
@@ -62,7 +62,7 @@
 }
 
 select {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-size: 100%;
 	background-color: white;
 	color: black;
@@ -87,7 +87,7 @@ select {
 }
 
 button {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-weight: bold;
 	font-size: 150%;
 	background-color: #EFBA35;
@@ -117,7 +117,7 @@ button:hover {
 }
 
 input {
-	font-family: "Annie Use Your Telescope";
+	font-family: Georgia;
 	font-size: 200%;
 	background-color: #EFBA35;
 	color: black;
