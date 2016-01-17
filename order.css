@@ -117,14 +117,6 @@ input {
 	position: relative;
 }
 
-input:link {
-}
-input:visited {
-}
-input:hover {
-	background-color: green;
-}
-
 .button1 {
 	position: relative;
 }
