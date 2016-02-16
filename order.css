@@ -76,38 +76,6 @@ select {
 	font-weight: bold;
 }
 
-#secondOrder {
-	display: none;
-}
-
-#extraorder {
-	display: none;
-	font-size: 150%;
-}
-
-#extraorder a{
-	text-decoration: underline;
-	color: green;
-}
-
-button {
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 150%;
-	color: black;
-	border: 4px solid black;
-	margin-top: 50px;
-	position: relative;
-	background-color: #EFBA35;
-}
-button:link {
-}
-button:visited {
-}
-button:hover {
-	background-color: green;
-}
-
 input {
 	font-family: Georgia;
 	font-size: 200%;
@@ -116,11 +84,6 @@ input {
 	border: 4px solid black;
 	position: relative;
 }
-
-.button1 {
-	position: relative;
-}
-
 
 body {
   background-color: black;
