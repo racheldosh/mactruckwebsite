@@ -1,0 +1,65 @@
+.nav {
+    	background-color: #EFBA35;
+    	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	height: 40px;
+    	width: 100%;
+    	z-index: 10;
+    	text-align: center;
+}
+
+.nav a {
+    	font-family: "Annie Use Your Telescope";
+    	font-size: 180%;
+    	font-weight: bold;
+    	padding-left: .7em;
+    	padding-right: .5em;
+    	text-transform: uppercase;
+    	text-decoration: none;
+}
+
+.nav a:link {
+	color: black;
+}
+
+.nav a:visited {
+	color: black;
+}
+
+.nav a:hover {
+	color: green;
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav .navright {
+	position: absolute;
+	top: 0px;
+	right: 2em;
+}
+
+.nav .navcenter {
+	position: absolute;
+	top: 13px;
+}
+
+#topborder {
+	position: relative;
+	z-index: 5;
+	width: 700px;
+	height: 70px;
+	left: 70px;
+}
+
+.class {
+  background-color: #EFBA35;
+  position: relative;
+}
+
+body {
+    background-color: #242222;
+}
