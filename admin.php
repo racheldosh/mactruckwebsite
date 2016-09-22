@@ -4,29 +4,36 @@
 <link rel="stylesheet" type="text/css"
       href="//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope">
 <link href="admin.css" rel="stylesheet">
+  <!-- link to style sheet and also google font (unsure if this is working) -->
+
 
 <body>
     <div class="nav" style="border-bottom: 2px solid #242222">
+    <!-- navigation bar -->
         <div class="navcenter">
+        <!-- links to home screen -->
           	<a href="index.html">MAC Truck</a>
         </div>
         <div class="navright">
+          <!-- links to other pages-->
             <ul>
-                <li><a href="menu.html">Menu</a></li>
+                  <li><a href="menu.html">Menu</a></li>
               	<li><a href="order.php">Order</a></li>
               	<li><a href="cater.html">Cater</a></li>
             	<li><a href="about.html">About</a></li>
              	<li><a href="contact-us.html">Contact Us</a></li>
             </ul>
-         </div>
-</div>
+        </div>
+    </div>
 
 
-  <div class="ordertable">
-    <h1> MAC ORDERS </h1>
-    <table>
-            <thead>
-                <tr>
+     <div class="ordertable">
+
+            <h1> MAC ORDERS </h1>
+            <!-- creates table, first row with labels -->
+                  <table>
+                  <thead>
+                  <tr>
                     <td>Mac</td>
                     <td>Cond1</td>
                     <td>Cond2</td>
@@ -42,10 +49,11 @@
                     <td>Room</td>
                     <td>Total</td>
                 </tr>
-            </thead>
-            <tbody>
+                </thead>
+                <tbody>
 
   <?php
+  /* still playing around with this, working with php and querying mySQL database */
   $servername = "localhost:3306";
   $username = "rcollins@localhost";
   $password = "password";
@@ -63,7 +71,7 @@
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {
-      // output data of each row
+      // output data of each row as fetched from database, input in corresponding columns+rows
       while($row = $result->fetch_assoc()) {
         ?>
         <form>
@@ -89,17 +97,22 @@
         </tbody>
         </table>
       </div>
+      
+      
+      
 
       <div class="admintools">
+      <!-- class for the admin so can delete orders from table (and thus the database) -->
           <h1> Delete order: </h1>
           <form>
-
               <input type="text" name="deleteinput" value="(name on order)">
               <input type="submit" value="Delete">
           </form>
 
           <?php
-
+          /* accessing the database once again to delete orders from the database 
+          if admin chooses to do so */
+          
           $servername = "localhost:3306";
           $username = "rcollins@localhost";
           $password = "password";
