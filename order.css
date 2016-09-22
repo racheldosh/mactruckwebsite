@@ -1,4 +1,5 @@
 .nav {
+/* navigation style */
     	background-color: #EFBA35;
     	position: fixed;
 	top: 0px;
@@ -11,6 +12,7 @@
 }
 
 .nav a {
+/* links in navigation bar style */
     	font-family: "Annie Use Your Telescope";
     	font-size: 180%;
     	font-weight: bold;
@@ -20,19 +22,19 @@
     	text-decoration: none;
 }
 
-
+/* BELOW: changes color of links when user hovers over them */
 .nav a:link {
 	color: black;
 }
-
 .nav a:visited {
 	color: black;
 }
-
 .nav a:hover {
 	color: green;
 }
+
 .nav li{
+/* displays links inline instead of vertically */
 	display: inline;
 }
 
@@ -48,6 +50,7 @@
 }
 
 .theform {
+/* style for the general order form */
 	background-color: #EFBA35;
 	font-family: Georgia;
 	font-size: 100%;
@@ -60,6 +63,7 @@
 }
 
 select {
+/* style for the drop down menus */
 	font-family: Georgia;
 	font-size: 100%;
 	background-color: white;
@@ -72,11 +76,13 @@ select {
 }
 
 #totallabel {
+/* style for the total cost label text */
 	font-size: 200%;
 	font-weight: bold;
 }
 
 input {
+/* style for where the user inputs their information for the order */
 	font-family: Georgia;
 	font-size: 200%;
 	background-color: white;
