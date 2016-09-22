@@ -1,6 +1,8 @@
 .nav {
+/* navigation bar */
     background-color: #EFBA35;
     position: fixed;
+    /* navigation bar follows the screen as scrolling occurs */
 	top: 0px;
 	left: 0px;
 	padding: 10px;
@@ -9,7 +11,9 @@
     z-index: 10;
     text-align: center;
 }
+
 .nav a {
+/* links in the navigation bar */
     font-family: "Annie Use Your Telescope";
     font-size: 180%;
     font-weight: bold;
@@ -19,40 +23,49 @@
     text-decoration: none;
 }
 
+
+/* BELOW: changes color of navigation bar links when user is hovering over them */
+/**************************************************************/
 .nav a:link {
 	color: black;
 }
-
 .nav a:visited {
 	color: black;
 }
-
 .nav a:hover {
 	color: green;
 }
+/***************************************************************/
+
 
 .nav li{
+/* displays navigation links in a single row instead of column form */
 	display: inline;
 }
 
+/*
 .nav .navleft {
 	position: relative;
 	top: -10px;
 	left: -30px;
 }
+*/
 
 .nav .navright {
+/* navigation bar for Menu, Order, Cater, About, and Contact Us links */
 	position: absolute;
 	top: 0px;
 	right: 2em;
 }
 
 .nav .navcenter {
+/* navigation bar for Mac Truck (home) link */
 	position: absolute;
 	top: 10px;
 }
 
 .information {
+/* Styling for the information box describing the Mac Truck */
     background-color: black;
     border: double 8px white;
     position: relative;
@@ -67,6 +80,7 @@
 }
 
 .information  h1{
+/* makes the header larger than the paragraph below */
 	font-size: 300%;
 }
 
