@@ -1,4 +1,5 @@
 .nav {
+/* style for navigation bar */
     background-color: #EFBA35;
     position: fixed;
 	top: 0px;
@@ -10,6 +11,7 @@
     text-align: center;
 }
 .nav a {
+/* style for navigation links */
     font-family: "Annie Use Your Telescope";
     font-size: 180%;
     font-weight: bold;
@@ -19,39 +21,44 @@
     text-decoration: none;
 }
 
+/* BELOW: style for changing color of link when user hovers over it */
 .nav a:link {
 	color: black;
 }
-
 .nav a:visited {
 	color: black;
 }
-
 .nav a:hover {
 	color: green;
 }
+
 .nav li{
+/* displays links in a single row instead of a single column */
 	display: inline;
 }
 
+/*
 .nav .navleft {
 	position: relative;
 	top: -10px;
 	left: -30px;
-}
+}*/
 
 .nav .navright {
+/* style for links to other pages -- WHY IS THIS DIFFERENT FROM .NAVCENTER??? FIX ---- */
 	position: absolute;
 	top: 0px;
 	right: 2em;
 }
 
 .nav .navcenter {
+/* style for home link, on left side of nav bar */
 	position: absolute;
 	top: 10px;
 }
 
 .information {
+/* style for the text block */
     background-color: black;
     position: relative;
     color: #EFBA35;
@@ -68,6 +75,7 @@
 }
 
 .moreinformation {
+/* style for the second text block */
 	background-color: #EFBA35;
 	position: relative;
 	color: black;
@@ -79,14 +87,16 @@
 	border: ridge 8px white;
 }
 
-.moreinformation a {	
+.moreinformation a {
+/* links should always be a different color */
 	color: green;
 }
 
 .moreinformation h2 {
+/* ... and underlined :) */
 	text-decoration: underline;
 }
-    
+
 body {
     background-color: black;
 }
