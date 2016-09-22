@@ -1,4 +1,11 @@
-.nav {
+/*********************************************************************
+ *********************************************************************
+ Style for a confirmation page that tells you info on your confirmed order
+ Relies on php / mySQL, which I'm still working on 
+ *********************************************************************
+ *********************************************************************
+
+ .nav {
     	background-color: #EFBA35;
     	position: fixed;
 	top: 0px;
@@ -63,3 +70,4 @@
 body {
     background-color: #242222;
 }
+*/
