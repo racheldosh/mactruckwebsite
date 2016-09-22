@@ -1,6 +1,7 @@
 function calculatePrice(){
+// function for calculating the price of a regular order
 
-      //Get selected data
+ //Get selected data
  "use strict";
       var elt = document.getElementById("macChoice");
       var mac = elt.options[elt.selectedIndex].value;
@@ -31,6 +32,6 @@ function calculatePrice(){
       //calculate total value
       var total = mac+cond4+cond5+cond6+drinkchoice;
 
-      //print value to  PicExtPrice
+      //print value to PicExtPrice
       document.getElementById("PicExtPrice").value = total.toFixed(2);
  }
