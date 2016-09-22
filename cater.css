@@ -1,8 +1,8 @@
-
-
 .nav {
+/* navigation bar */
     	background-color: #EFBA35;
     	position: fixed;
+        /* navigation bar follows the screen as scrolling occurs */
 	top: 0px;
 	left: 0px;
 	padding: 10px;
@@ -13,6 +13,7 @@
 }
 
 .nav a {
+/* links in the navigation bar */
     	font-family: "Annie Use Your Telescope";
     	font-size: 180%;
     	font-weight: bold;
@@ -22,34 +23,40 @@
     	text-decoration: none;
 }
 
+/* BELOW: changes color of navigation bar links when user is hovering over them */
+/**************************************************************/
 .nav a:link {
 	color: black;
 }
-
 .nav a:visited {
 	color: black;
 }
-
 .nav a:hover {
 	color: green;
 }
+/***************************************************************/
+
 
 .nav li{
+/* displays navigation links in a single row instead of column form */
 	display: inline;
 }
 
 .nav .navright {
+	/* navigation bar for Menu, Order, Cater, About, and Contact Us links */
 	position: absolute;
 	top: 0px;
 	right: 2em;
 }
 
 .nav .navcenter {
+/* navigation bar for Mac Truck (home) link */
 	position: absolute;
 	top: 13px;
 }
 
 .caterform {
+/* styling for the form when users are requesting catering information */
 	background-color: #EFBA35;
 	font-family: Georgia;
 	font-size: 80%;
@@ -62,6 +69,7 @@
 }
 
 select {
+/* styling for selection drop-down menus */
 	font-family: Georgia;
 	font-size: 130%;
 	background-color: white;
@@ -69,24 +77,29 @@ select {
 	border: 4px solid black;
 }
 
-.theform h1 {
+/*.theform h1 {
 	font-size: 80%;
 }
+*/
 
 #totalcaterlabel {
+/* styling for the output label displaying total cost */
 	font-size: 150%;
 	font-weight: bold;
 }
 
 #secondOrder {
+/* display originally none, but if user clicks button for second order, use JavaScript to change display to block */
 	display: none;
 }
 
 #thirdOrder {
+/* display originally none, but if user clicks button for third order, use JavaScript to change display to block */
 	display: none;
 }
 
 button {
+/* styling for the buttons */
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 170%;
@@ -97,22 +110,21 @@ button {
 	position: relative;
 }
 
+/* BELOW: changes color of buttons when user is hovering over them */
+/**************************************************************/
 button:link {
 }
-
 button:visited {
 	background-color: black;
 }
-
 button:hover {
 	background-color: green;
 }
 
-
+/* more styling for buttons */
 .button1{
 	position: relative;
 }
-
 .button2{
 	position: relative;
 }
