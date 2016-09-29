@@ -8,7 +8,7 @@ Site currently hosted by github, found at racheldoshcollins.github.io
 
 ____________________________________________________________________________________________________________________
 
-things to work on and improve:
+Things to work on and improve:
 
 make it possible that navigation bar/styling doesn't have to be written in each html/css file?
 
